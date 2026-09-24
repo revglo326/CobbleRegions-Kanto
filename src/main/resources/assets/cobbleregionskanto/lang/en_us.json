@@ -1,0 +1,13 @@
+{
+  "itemGroup.cobbleregionskanto": "Example Mod Tab",
+  "block.cobbleregionskanto.example_block": "Example Block",
+  "item.cobbleregionskanto.example_item": "Example Item",
+
+  "cobbleregionskanto.configuration.title": "Example Mod Configs",
+  "cobbleregionskanto.configuration.section.cobbleregionskanto.common.toml": "Example Mod Configs",
+  "cobbleregionskanto.configuration.section.cobbleregionskanto.common.toml.title": "Example Mod Configs",
+  "cobbleregionskanto.configuration.items": "Item List",
+  "cobbleregionskanto.configuration.logDirtBlock": "Log Dirt Block",
+  "cobbleregionskanto.configuration.magicNumberIntroduction": "Magic Number Text",
+  "cobbleregionskanto.configuration.magicNumber": "Magic Number"
+}

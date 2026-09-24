@@ -28,6 +28,16 @@ sourceSets.main.resources {
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 base {
@@ -116,6 +126,15 @@ configurations {
 }
 
 dependencies {
+    // Cobblemon
+    implementation "curse.maven:cobblemon-687131:8868914"
+
+    // RCT Mod
+    implementation "curse.maven:rctmod-1009534:8827140"
+
+    // RCT API
+    implementation "curse.maven:rctapi-1152792:8876921"
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
