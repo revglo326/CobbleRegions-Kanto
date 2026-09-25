@@ -135,6 +135,12 @@ dependencies {
     // RCT API
     implementation "curse.maven:rctapi-1152792:8876921"
 
+    // CobbleFurnies
+    implementation "curse.maven:cobblefurnies-1188698:8340192"
+
+    // CobbleDollars
+    implementation "curse.maven:cobbledollars-859232:8484919"
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
