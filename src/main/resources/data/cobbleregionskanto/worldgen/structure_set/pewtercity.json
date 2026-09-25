@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:pewtercity/pewtercity"
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "separation": 30,
+        "spacing": 60,
+        "salt": 312333
+    }
+}

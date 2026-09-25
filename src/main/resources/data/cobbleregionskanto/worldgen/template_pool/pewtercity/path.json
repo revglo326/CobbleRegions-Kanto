@@ -1,0 +1,68 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/straight_1",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/straight_2",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/straight_3",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/crossroads",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/turn_1",
+                "projection": "terrain_matching" ,
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/turn_2",
+                "projection": "terrain_matching" ,
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/path_end",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        }
+    ]
+}
