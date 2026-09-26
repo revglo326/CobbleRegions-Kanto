@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:ceruleancity/gym",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:ceruleancity/gym",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}
