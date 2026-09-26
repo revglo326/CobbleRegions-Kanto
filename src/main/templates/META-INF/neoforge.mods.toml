@@ -50,8 +50,8 @@ Adds TOWNS and LOCATIONS from the KANTO REGION into Minecraft!
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
-#[[mixins]]
-#config="${mod_id}.mixins.json"
+[[mixins]]
+config="mixins.${mod_id}.json"
 
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
@@ -128,6 +128,15 @@ Adds TOWNS and LOCATIONS from the KANTO REGION into Minecraft!
     type="required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[2.0.0+Beta-6.1+,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.${mod_id}]]
+    modId="hugestructureblocks"
+    type="required"
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.1.6,)"
     ordering="AFTER"
     side="BOTH"
 
