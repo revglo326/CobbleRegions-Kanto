@@ -1,0 +1,1 @@
+Static Entity Attributes -> {attributes:[{id:"minecraft:generic.movement_speed", base:0.0g}], PersistenceRequired:1b}

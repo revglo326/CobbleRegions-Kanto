@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:ceruleancity/pond",
+    "elements": [
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:ceruleancity/pond",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

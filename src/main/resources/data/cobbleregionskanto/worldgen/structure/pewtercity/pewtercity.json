@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:plains",
+    "biomes": ["minecraft:plains"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "use_expansion_hack": false,

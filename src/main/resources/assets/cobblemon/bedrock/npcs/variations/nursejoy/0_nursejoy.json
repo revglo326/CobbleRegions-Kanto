@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:nursejoy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:alex.geo",
+      "texture": "cobblemon:textures/npcs/nursejoy/nursejoy.png",
+      "layers": []
+    }
+  ]
+}

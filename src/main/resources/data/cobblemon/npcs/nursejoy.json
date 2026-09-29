@@ -1,0 +1,12 @@
+{
+    "resourceIdentifier": "cobblemon:nursejoy",
+    "canDespawn": false,
+    "hitbox": "player",
+    "interaction": {
+        "dialogue": "cobblemon:nursejoy_interaction",
+        "type": "dialogue"
+    },
+    "names": [
+        "Nurse Joy"
+    ]
+}
