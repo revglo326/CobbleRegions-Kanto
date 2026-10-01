@@ -1,0 +1,30 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:pewtercity/pewtercity"
+        },
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:ceruleancity/ceruleancity"
+        },
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:vermilioncity/vermilioncity"
+        },
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:lavendertown/lavendertown"
+        },
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:celadoncity/celadoncity"
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "separation": 20,
+        "spacing": 80,
+        "salt": 312333
+    }
+}
