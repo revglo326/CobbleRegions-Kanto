@@ -1,1 +1,3 @@
 Static Entity Attributes -> {attributes:[{id:"minecraft:generic.movement_speed", base:0.0g}], PersistenceRequired:1b}
+Static Trainer -> rctmod trainer summon_persistent "trainer_name" ~ ~ ~ {attributes:[{id:"minecraft:generic.movement_speed", base:0.0g}]}
+Ghost Tower Habitat Block -> /setblock 322 -30 264 cobblemon:habitat_block{SpawningStyle:"activated",Trigger:"TICK",Chance:0.02f,MaxSpawns:15,SpawnRange:64,CancelRange:128,PhaseOrder:"SIMPLE",MimicId:"cherry_log",PoolId:"cobblemon:ghost_tower",MaxSpawnsPerActivation:1} replace

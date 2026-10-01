@@ -1,0 +1,140 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_01",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_02",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_03",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_04",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_05",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_06",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_07",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_08",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_09",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_10",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_11",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_12",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_13",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_14",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:vermilioncity/gym_puzzle/solution_15",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}
