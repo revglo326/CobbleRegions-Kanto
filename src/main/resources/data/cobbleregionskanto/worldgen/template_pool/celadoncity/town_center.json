@@ -6,7 +6,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:celadoncity/paths/town_center",
-                "projection": "rigid",
+                "projection": "terrain_matching",
                 "processors": []
             }
         }

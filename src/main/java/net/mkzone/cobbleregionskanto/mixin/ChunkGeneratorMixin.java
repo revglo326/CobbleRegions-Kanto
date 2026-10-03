@@ -4,6 +4,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.chunk.ChunkGenerator;
 import net.mkzone.cobbleregionskanto.world.TownsSavedData;
@@ -27,31 +28,29 @@ public class ChunkGeneratorMixin {
 
         ServerLevel overworld = level.getServer().overworld();
         TownsSavedData data = TownsSavedData.get(overworld);
-        if (data == null) return;
 
-        // 1. Check if the structure being searched for matches your target structure type
-        // (You want to filter this so you don't override /locate for vanilla villages, strongholds, etc.)
-        boolean isYourTargetStructure = structureSet.stream().anyMatch(holder -> {
+        // Filter out non-Kanto structures
+        boolean isKantoStructure = structureSet.stream().anyMatch(holder -> {
             return holder.unwrapKey()
-                    .map(key -> key.location().toString().equals("cobbleregionskanto:pewtercity/pewtercity"))
+                    .map(key -> key.location().toString().contains("cobbleregionskanto:"))
                     .orElse(false);
         });
 
-        if (isYourTargetStructure) {
-            // 2. Fetch the exact, singular allowed position from your saved data
-            BlockPos allowedInstancePos = data.getPosOfTown("cobbleregionskanto:pewtercity/pewtercity").getWorldPosition();
+        if (isKantoStructure) {
+            Holder<Structure> structureHolder = structureSet.stream().findFirst().orElse(null);
 
-            if (allowedInstancePos != null) {
-                // 3. Find the holder reference for the structure to pack into the pair
-                Holder<Structure> structureHolder = structureSet.stream().findFirst().orElse(null);
-
-                if (structureHolder != null) {
-                    System.out.println("Redirecting /locate directly to the valid instance at " + allowedInstancePos);
-
-                    // 4. Instantly return the coordinates, completely bypassing the native search logic
-                    cir.setReturnValue(Pair.of(allowedInstancePos, structureHolder));
-                }
+            assert structureHolder != null;
+            String town = structureHolder.getRegisteredName();
+            System.out.println("=== REGISTERED NAME: " + town + " ===");
+            ChunkPos chunkPos = data.getPosOfTown(town);
+            if (chunkPos == null) {
+                return;
             }
+
+            //System.out.println("=== NEXT TOWN: " + town + " ===");
+            BlockPos allowedInstancePos = chunkPos.getWorldPosition();
+            System.out.println("Redirecting /locate directly to the valid instance at " + allowedInstancePos);
+            cir.setReturnValue(Pair.of(allowedInstancePos, structureHolder));
         }
     }
 }

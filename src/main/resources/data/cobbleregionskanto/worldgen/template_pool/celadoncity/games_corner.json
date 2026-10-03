@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:celadoncity/games_corner",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:celadoncity/games_corner",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

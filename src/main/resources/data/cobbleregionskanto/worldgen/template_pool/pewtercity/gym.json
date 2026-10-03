@@ -2,7 +2,7 @@
     "fallback": "cobbleregionskanto:pewtercity/gym",
     "elements": [
         {
-            "weight": 1,
+            "weight": 10,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:pewtercity/gym",

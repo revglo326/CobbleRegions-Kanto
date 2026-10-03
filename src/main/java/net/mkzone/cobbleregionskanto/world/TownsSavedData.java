@@ -18,6 +18,16 @@ public class TownsSavedData extends SavedData {
     private static final java.util.Map<String, ChunkPos> TRACKED_TOWNS = new java.util.concurrent.ConcurrentHashMap<>();
     private static final Set<ChunkPos> BLOCKED_TOWNS_BY_POS = new java.util.HashSet<>();
 
+    private static final java.util.Map<String, String> TOWNS_NEIGHBOR_MAP = java.util.Map.ofEntries(
+            Map.entry("pewtercity", "ceruleancity"),
+            Map.entry("ceruleancity", "vermilioncity"),
+            Map.entry("vermilioncity", "lavendertown"),
+            Map.entry("lavendertown", "celadoncity"),
+            Map.entry("celadoncity", "pewtercity")
+    );
+
+    private String nextTown = "null";
+
     public static final SavedData.Factory<TownsSavedData> FACTORY = new SavedData.Factory<>(
             TownsSavedData::new,
             TownsSavedData::load,
@@ -59,6 +69,7 @@ public class TownsSavedData extends SavedData {
         if (!TRACKED_TOWNS.containsKey(structureId)) {
             TRACKED_TOWNS.put(structureId, origin);
             this.setDirty(); // Crucial: Tells the game to save this data
+            nextTown = TOWNS_NEIGHBOR_MAP.get(structureId.substring(structureId.lastIndexOf('/') + 1));
             return true;
         }
         return false;
@@ -70,6 +81,10 @@ public class TownsSavedData extends SavedData {
 
     public ChunkPos getPosOfTown(String structureId) {
         return TRACKED_TOWNS.get(structureId);
+    }
+
+    public void resetTrackedTowns() {
+        TRACKED_TOWNS.clear();
     }
 
     public static TownsSavedData get(ServerLevel level) {
@@ -86,4 +101,10 @@ public class TownsSavedData extends SavedData {
     public static Set<ChunkPos> getBlockedTowns() {
         return BLOCKED_TOWNS_BY_POS;
     }
+
+    public static java.util.Map<String, String> getTownNeighbors() {
+        return TOWNS_NEIGHBOR_MAP;
+    }
+
+    public String getNextTown() { return nextTown; }
 }

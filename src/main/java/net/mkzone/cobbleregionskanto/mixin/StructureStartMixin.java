@@ -18,6 +18,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+import java.util.Map;
+
 @Mixin(StructureStart.class)
 public abstract class StructureStartMixin {
 
@@ -32,7 +34,56 @@ public abstract class StructureStartMixin {
         ServerLevel overworld = level.getServer().overworld();
         TownsSavedData data = TownsSavedData.get(overworld);
 
-        if (id != null && id.toString().equals("cobbleregionskanto:pewtercity/pewtercity")) {
+        assert id != null;
+        if (id.toString().contains("cobbleregionskanto:")) {
+            String structurePath = id.toString();
+            structurePath = structurePath.substring(structurePath.lastIndexOf('/') + 1);
+
+            //System.out.println("=== SUCCESS: INSTANCE OF " + structurePath.toUpperCase() + " FOUND AND LOGGED! ===");
+
+            StructureStart bridge = (StructureStart) (Object) this;
+            String structureKey = id.toString();
+            ChunkPos origin = bridge.getChunkPos();
+
+            // Let the initial town generate normally
+            if (data.getNextTown().equals("null")) {
+                if (data.trackTown(structureKey, origin)) {
+                    System.out.println("=== SUCCESS: FIRST " + structurePath.toUpperCase() + " INSTANCE FOUND AND LOGGED! ===");
+                    System.out.println("Location Origin: " + origin);
+                    System.out.println("Next town: " + data.getNextTown().toUpperCase());
+                }
+            } else if (data.getNextTown().equals(structurePath) || data.getTrackedTowns().containsKey(structureKey)) {
+                if (data.trackTown(structureKey, origin)) {
+                    System.out.println("=== SUCCESS: FIRST " + structurePath.toUpperCase() + " INSTANCE FOUND AND LOGGED! ===");
+                    System.out.println("Location Origin: " + origin);
+                    System.out.println("Next town: " + data.getNextTown().toUpperCase());
+                    return;
+                } else if (data.getTownNeighbors().size() == data.getTrackedTowns().size()) {
+                    // Check if number of towns is equal between Neighbor map and Tracked towns
+                    data.resetTrackedTowns();
+                    data.trackTown(structureKey, origin);
+                    System.out.println("=== SUCCESS: CYCLE RESTARTED WITH SECOND " + structurePath.toUpperCase() + " INSTANCE FOUND AND LOGGED! ===");
+                    System.out.println("Location Origin: " + origin);
+                    System.out.println("Next town: " + data.getNextTown().toUpperCase());
+                    return;
+                }
+
+                // Check if duplicate town is generating before remaining towns
+                ChunkPos savedOrigin = data.getTrackedTowns().get(structureKey);
+                if (savedOrigin != null && !origin.equals(savedOrigin)) {
+                    System.out.println("=== BLOCKED DUPLICATE SPAWN: " + structurePath.toLowerCase() + " deleted at chunk " + chunkPos + " ===");
+                    data.blockTown(origin);
+                    ci.cancel(); // Terminate layout block execution entirely
+                }
+            } else {
+                System.out.println("=== BLOCKED INCORRECT SPAWN: " + structurePath.toLowerCase() + " deleted at chunk " + chunkPos + " ===");
+                data.blockTown(origin);
+                ci.cancel();
+            }
+        }
+
+        /*
+        if (structurePath != null && id.toString().equals("cobbleregionskanto:pewtercity/pewtercity")) {
             StructureStart bridge = (StructureStart) (Object) this;
             String structureKey = id.toString();
             ChunkPos origin = bridge.getChunkPos();
@@ -50,5 +101,6 @@ public abstract class StructureStartMixin {
                 ci.cancel(); // Terminate layout block execution entirely
             }
         }
+         */
     }
 }

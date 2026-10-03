@@ -1,5 +1,5 @@
 {
-    "fallback": "minecraft:empty",
+    "fallback": "cobbleregionskanto:vermilioncity/gym",
     "elements": [
         {
             "weight": 10,

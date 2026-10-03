@@ -1,8 +1,8 @@
 {
-    "fallback": "minecraft:empty",
+    "fallback": "cobbleregionskanto:pewtercity/terminators",
     "elements": [
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:pewtercity/paths/straight_1",
@@ -20,7 +20,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:pewtercity/paths/straight_3",
@@ -29,7 +29,34 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 7,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/straight_4",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 7,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/straight_5",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pewtercity/paths/straight_6",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:pewtercity/paths/crossroads",
@@ -38,7 +65,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 3,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:pewtercity/paths/turn_1",
@@ -47,20 +74,11 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:pewtercity/paths/turn_2",
+                "location": "cobbleregionskanto:pewtercity/paths/corner_1",
                 "projection": "terrain_matching" ,
-                "processors": []
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:pewtercity/paths/path_end",
-                "projection": "terrain_matching",
                 "processors": []
             }
         }
