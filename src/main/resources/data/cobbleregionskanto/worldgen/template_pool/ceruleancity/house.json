@@ -1,5 +1,5 @@
 {
-    "fallback": "minecraft:empty",
+    "fallback": "cobbleregionskanto:ceruleancity/terminators",
     "elements": [
         {
             "weight": 5,

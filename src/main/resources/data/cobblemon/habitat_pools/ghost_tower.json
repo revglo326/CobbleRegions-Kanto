@@ -1,0 +1,342 @@
+{
+    "name": "Ghost Tower",
+    "spawns": [
+        {
+            "bucket": "uncommon",
+            "levelRange": "6-31",
+            "phases": "1-5",
+            "spawnablePositionType": "grounded",
+            "species": "Gastly",
+            "weight": 6.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "25-41",
+            "phases": "1-5",
+            "spawnablePositionType": "grounded",
+            "species": "Haunter",
+            "weight": 3.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "36-50",
+            "phases": "1-5",
+            "spawnablePositionType": "grounded",
+            "species": "Gengar",
+            "weight": 1.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "5-31",
+            "phases": "1-5",
+            "spawnablePositionType": "grounded",
+            "species": "Litwick",
+            "weight": 6.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "14-41",
+            "phases": "1-5",
+            "spawnablePositionType": "grounded",
+            "species": "Lampent",
+            "weight": 3.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "36-53",
+            "phases": "1-5",
+            "spawnablePositionType": "grounded",
+            "species": "Chandelure",
+            "weight": 1.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "7-32",
+            "phases": "2",
+            "spawnablePositionType": "grounded",
+            "species": "Shuppet",
+            "weight": 6.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "7-32",
+            "phases": "1, 3-5",
+            "spawnablePositionType": "grounded",
+            "species": "Shuppet",
+            "weight": 6.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "35-54",
+            "phases": "2",
+            "spawnablePositionType": "grounded",
+            "species": "Banette",
+            "weight": 4.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "35-54",
+            "phases": "1, 3-5",
+            "spawnablePositionType": "grounded",
+            "species": "Banette",
+            "weight": 4.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "8-33",
+            "phases": "3",
+            "spawnablePositionType": "grounded",
+            "species": "Honedge",
+            "weight": 6.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "8-33",
+            "phases": "1-2, 4-5",
+            "spawnablePositionType": "grounded",
+            "species": "Honedge",
+            "weight": 3.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "35-45",
+            "phases": "3",
+            "spawnablePositionType": "grounded",
+            "species": "Doublade",
+            "weight": 3.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "35-45",
+            "phases": "1-2, 4-5",
+            "spawnablePositionType": "grounded",
+            "species": "Doublade",
+            "weight": 1.5,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "40-50",
+            "phases": "3",
+            "spawnablePositionType": "grounded",
+            "species": "Aegislash",
+            "weight": 1.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "40-50",
+            "phases": "1-2, 4-5",
+            "spawnablePositionType": "grounded",
+            "species": "Aegislash",
+            "weight": 0.5,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "22-47",
+            "phases": "4",
+            "spawnablePositionType": "grounded",
+            "species": "Misdreavus",
+            "weight": 10.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "22-47",
+            "phases": "1-3, 5",
+            "spawnablePositionType": "grounded",
+            "species": "Misdreavus",
+            "weight": 10.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "1-26",
+            "phases": "5",
+            "spawnablePositionType": "grounded",
+            "species": "Drifloon",
+            "weight": 6.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "1-26",
+            "phases": "1-4",
+            "spawnablePositionType": "grounded",
+            "species": "Drifloon",
+            "weight": 6.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "21-53",
+            "phases": "5",
+            "spawnablePositionType": "grounded",
+            "species": "Drifblim",
+            "weight": 2.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "21-53",
+            "phases": "1-4",
+            "spawnablePositionType": "grounded",
+            "species": "Drifblim",
+            "weight": 2.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "common",
+            "levelRange": "21-53",
+            "phases": "5",
+            "spawnablePositionType": "grounded",
+            "species": "Mismagius",
+            "weight": 2.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        },
+        {
+            "bucket": "uncommon",
+            "levelRange": "21-53",
+            "phases": "1-4",
+            "spawnablePositionType": "grounded",
+            "species": "Mismagius",
+            "weight": 2.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:crimson_planks",
+                    "minecraft:polished_tuff"
+                ]
+            }
+        }
+    ],
+    "type": "cobblemon:activated"
+}

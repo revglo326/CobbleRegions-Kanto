@@ -1,0 +1,96 @@
+{
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "name": "minecraft:bread",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:exp_candy_xs",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "max": 12.0,
+                "min": 6.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "name": "cobblemon:remedy",
+                    "type": "minecraft:item",
+                    "weight": 5
+                },
+                {
+                    "name": "cobblemon:awakening",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:paralyze_heal",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:antidote",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:burn_heal",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:ice_heal",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "name": "cobblemon:oran_berry",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "max": 6.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "name": "cobblemon:link_cable",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "max": 1.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        }
+    ],
+    "random_sequence": "cobblemon:villages/village_pokecenters",
+    "type": "minecraft:chest"
+}

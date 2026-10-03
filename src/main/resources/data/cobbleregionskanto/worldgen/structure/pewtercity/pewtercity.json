@@ -10,6 +10,6 @@
         "absolute": 0
     },
     "start_pool": "cobbleregionskanto:pewtercity/town_center",
-    "size": 5,
+    "size": 4,
     "terrain_adaptation": "beard_thin"
 }

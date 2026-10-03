@@ -1,5 +1,5 @@
 {
-    "fallback": "minecraft:empty",
+    "fallback": "cobbleregionskanto:lavendertown/terminators",
     "elements": [
         {
             "weight": 6,
