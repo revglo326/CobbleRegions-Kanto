@@ -5,7 +5,7 @@
             "structure": "cobbleregionskanto:pewtercity/pewtercity"
         },
         {
-            "weight": 1,
+            "weight": 2,
             "structure": "cobbleregionskanto:ceruleancity/ceruleancity"
         },
         {
@@ -25,6 +25,6 @@
         "type": "random_spread",
         "separation": 20,
         "spacing": 80,
-        "salt": 312333
+        "salt": 8174598
     }
 }

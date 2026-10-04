@@ -1,6 +1,7 @@
 {
     "values": [
         "#c:is_river",
-        "#c:is_beach"
+        "#c:is_beach",
+        "minecraft:birch_forest"
     ]
 }

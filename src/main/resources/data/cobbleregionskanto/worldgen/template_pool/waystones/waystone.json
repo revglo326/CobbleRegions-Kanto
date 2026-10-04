@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:waystones/waystone",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:waystones/waystone",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

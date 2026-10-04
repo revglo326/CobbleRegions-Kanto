@@ -1,8 +1,8 @@
 {
-    "fallback": "minecraft:empty",
+    "fallback": "cobbleregionskanto:pewtercity/terminators",
     "elements": [
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:pewtercity/flowerbed",
