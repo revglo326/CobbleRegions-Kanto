@@ -5,20 +5,24 @@
             "structure": "cobbleregionskanto:pewtercity/pewtercity"
         },
         {
-            "weight": 2,
+            "weight": 3,
             "structure": "cobbleregionskanto:ceruleancity/ceruleancity"
         },
         {
-            "weight": 1,
+            "weight": 2,
             "structure": "cobbleregionskanto:vermilioncity/vermilioncity"
         },
         {
-            "weight": 1,
+            "weight": 2,
             "structure": "cobbleregionskanto:lavendertown/lavendertown"
         },
         {
             "weight": 1,
             "structure": "cobbleregionskanto:celadoncity/celadoncity"
+        },
+        {
+            "weight": 2,
+            "structure": "cobbleregionskanto:fuchsiacity/fuchsiacity"
         }
     ],
     "placement": {

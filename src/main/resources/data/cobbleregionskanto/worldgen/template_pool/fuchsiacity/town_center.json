@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:fuchsiacity/town_center",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:fuchsiacity/paths/town_center",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        }
+    ]
+}

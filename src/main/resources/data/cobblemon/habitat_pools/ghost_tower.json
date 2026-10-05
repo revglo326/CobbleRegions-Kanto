@@ -3,7 +3,7 @@
     "spawns": [
         {
             "bucket": "uncommon",
-            "levelRange": "6-31",
+            "levelRange": "20-31",
             "phases": "1-5",
             "spawnablePositionType": "grounded",
             "species": "Gastly",
@@ -45,7 +45,7 @@
         },
         {
             "bucket": "common",
-            "levelRange": "5-31",
+            "levelRange": "20-31",
             "phases": "1-5",
             "spawnablePositionType": "grounded",
             "species": "Litwick",
@@ -59,7 +59,7 @@
         },
         {
             "bucket": "common",
-            "levelRange": "14-41",
+            "levelRange": "25-41",
             "phases": "1-5",
             "spawnablePositionType": "grounded",
             "species": "Lampent",
@@ -87,7 +87,7 @@
         },
         {
             "bucket": "common",
-            "levelRange": "7-32",
+            "levelRange": "20-32",
             "phases": "2",
             "spawnablePositionType": "grounded",
             "species": "Shuppet",
@@ -101,7 +101,7 @@
         },
         {
             "bucket": "uncommon",
-            "levelRange": "7-32",
+            "levelRange": "20-32",
             "phases": "1, 3-5",
             "spawnablePositionType": "grounded",
             "species": "Shuppet",
@@ -143,7 +143,7 @@
         },
         {
             "bucket": "common",
-            "levelRange": "8-33",
+            "levelRange": "20-33",
             "phases": "3",
             "spawnablePositionType": "grounded",
             "species": "Honedge",
@@ -157,7 +157,7 @@
         },
         {
             "bucket": "uncommon",
-            "levelRange": "8-33",
+            "levelRange": "20-33",
             "phases": "1-2, 4-5",
             "spawnablePositionType": "grounded",
             "species": "Honedge",
@@ -255,7 +255,7 @@
         },
         {
             "bucket": "common",
-            "levelRange": "1-26",
+            "levelRange": "20-26",
             "phases": "5",
             "spawnablePositionType": "grounded",
             "species": "Drifloon",
@@ -269,7 +269,7 @@
         },
         {
             "bucket": "uncommon",
-            "levelRange": "1-26",
+            "levelRange": "20-26",
             "phases": "1-4",
             "spawnablePositionType": "grounded",
             "species": "Drifloon",
