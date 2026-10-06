@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:saffroncity/gym",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:saffroncity/gym",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}
