@@ -1,9 +1,9 @@
 {
-  "itemGroup.cobbleregionskanto": "Example Mod Tab",
-  "block.cobbleregionskanto.example_block": "Example Block",
-  "item.cobbleregionskanto.example_item": "Example Item",
+  "itemGroup.cobbleregionskanto": "CobbleRegions: Kanto",
 
-  "cobbleregionskanto.configuration.title": "Example Mod Configs",
+  "block.cobbleregionskanto.teleporter": "Teleporter",
+
+  "cobbleregionskanto.configuration.title": "CobbleRegions: Kanto",
   "cobbleregionskanto.configuration.section.cobbleregionskanto.common.toml": "Example Mod Configs",
   "cobbleregionskanto.configuration.section.cobbleregionskanto.common.toml.title": "Example Mod Configs",
   "cobbleregionskanto.configuration.items": "Item List",
