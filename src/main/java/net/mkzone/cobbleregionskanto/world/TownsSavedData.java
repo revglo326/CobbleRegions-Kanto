@@ -31,7 +31,7 @@ public class TownsSavedData extends SavedData {
     public static final SavedData.Factory<TownsSavedData> FACTORY = new SavedData.Factory<>(
             TownsSavedData::new,
             TownsSavedData::load,
-            null // DataFixerType can be null
+            null
     );
 
     public TownsSavedData() {}
@@ -68,7 +68,7 @@ public class TownsSavedData extends SavedData {
     public boolean trackTown(String structureId, ChunkPos origin) {
         if (!TRACKED_TOWNS.containsKey(structureId)) {
             TRACKED_TOWNS.put(structureId, origin);
-            this.setDirty(); // Crucial: Tells the game to save this data
+            this.setDirty();
             nextTown = TOWNS_NEIGHBOR_MAP.get(structureId.substring(structureId.lastIndexOf('/') + 1));
             return true;
         }
@@ -88,7 +88,6 @@ public class TownsSavedData extends SavedData {
     }
 
     public static TownsSavedData get(ServerLevel level) {
-        // We always tie this global data to the Overworld so it's uniform across dimensions
         ServerLevel overworld = level.getServer().overworld();
         DimensionDataStorage storage = overworld.getDataStorage();
         return storage.computeIfAbsent(FACTORY, "cobbleregionskanto_towns");

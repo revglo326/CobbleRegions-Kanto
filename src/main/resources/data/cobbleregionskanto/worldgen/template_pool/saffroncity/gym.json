@@ -7,7 +7,41 @@
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:saffroncity/gym",
                 "projection": "rigid",
-                "processors": []
+                "processors": [
+                    {
+                        "processor_type": "cobbleregionskanto:teleporter_processor"
+                    }
+                ],
+                "spawn_overrides": {
+                    "monster": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    },
+                    "creature": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    },
+                    "ambient": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    },
+                    "water_creature": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    },
+                    "water_ambient": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    },
+                    "underground_water_creature": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    },
+                    "axolotls": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    }
+                }
             }
         }
     ]

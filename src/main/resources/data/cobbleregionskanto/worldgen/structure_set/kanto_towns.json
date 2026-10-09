@@ -2,31 +2,31 @@
     "structures": [
         {
             "weight": 1,
-            "structure": "cobbleregionskanto:pewtercity/pewtercity"
+            "structure": "cobbleregionskanto:pewtercity/pewter_city"
         },
         {
             "weight": 3,
-            "structure": "cobbleregionskanto:ceruleancity/ceruleancity"
+            "structure": "cobbleregionskanto:ceruleancity/cerulean_city"
         },
         {
             "weight": 2,
-            "structure": "cobbleregionskanto:vermilioncity/vermilioncity"
+            "structure": "cobbleregionskanto:vermilioncity/vermilion_city"
         },
         {
             "weight": 2,
-            "structure": "cobbleregionskanto:lavendertown/lavendertown"
+            "structure": "cobbleregionskanto:lavendertown/lavender_town"
         },
         {
             "weight": 1,
-            "structure": "cobbleregionskanto:celadoncity/celadoncity"
+            "structure": "cobbleregionskanto:celadoncity/celadon_city"
         },
         {
             "weight": 2,
-            "structure": "cobbleregionskanto:fuchsiacity/fuchsiacity"
+            "structure": "cobbleregionskanto:fuchsiacity/fuchsia_city"
         },
         {
             "weight": 1,
-            "structure": "cobbleregionskanto:saffroncity/saffroncity"
+            "structure": "cobbleregionskanto:saffroncity/saffron_city"
         }
     ],
     "placement": {

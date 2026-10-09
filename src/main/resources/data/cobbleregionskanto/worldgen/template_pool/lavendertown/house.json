@@ -2,7 +2,7 @@
     "fallback": "cobbleregionskanto:lavendertown/terminators",
     "elements": [
         {
-            "weight": 6,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:lavendertown/house_1",
@@ -11,7 +11,7 @@
             }
         },
         {
-            "weight": 5,
+            "weight": 3,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:lavendertown/house_2",
@@ -20,7 +20,16 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 3,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:lavendertown/jobsites/florist",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
             "element": {
                 "element_type": "empty_pool_element",
                 "location": "cobbleregionskanto:lavendertown/house_1",

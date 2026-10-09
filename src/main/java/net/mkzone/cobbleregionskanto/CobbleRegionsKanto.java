@@ -2,7 +2,9 @@ package net.mkzone.cobbleregionskanto;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.mkzone.cobbleregionskanto.block.ModBlocks;
+import net.mkzone.cobbleregionskanto.block.entity.ModBlockEntities;
 import net.mkzone.cobbleregionskanto.item.ModItems;
+import net.mkzone.cobbleregionskanto.worldgen.processor.ModStructureProcessors;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -38,6 +40,7 @@ public class CobbleRegionsKanto {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -61,6 +64,10 @@ public class CobbleRegionsKanto {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.LINKING_TOOL);
+        }
+
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.TELEPORTER);
         }

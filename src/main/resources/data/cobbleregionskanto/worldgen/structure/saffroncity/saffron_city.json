@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#cobbleregionskanto:has_structure/celadoncity_biomes",
+    "biomes": "#cobbleregionskanto:has_structure/saffroncity_biomes",
     "step": "surface_structures",
     "spawn_overrides": {},
     "use_expansion_hack": false,
@@ -9,7 +9,7 @@
     "start_height": {
         "absolute": 0
     },
-    "start_pool": "cobbleregionskanto:celadoncity/town_center",
-    "size": 6,
+    "start_pool": "cobbleregionskanto:saffroncity/town_center",
+    "size": 7,
     "terrain_adaptation": "beard_thin"
 }

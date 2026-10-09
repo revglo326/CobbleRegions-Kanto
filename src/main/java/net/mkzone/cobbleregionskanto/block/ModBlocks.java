@@ -6,6 +6,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.mkzone.cobbleregionskanto.CobbleRegionsKanto;
+import net.mkzone.cobbleregionskanto.block.custom.TeleporterBlock;
 import net.mkzone.cobbleregionskanto.item.ModItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -17,7 +18,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(CobbleRegionsKanto.MOD_ID);
 
-    public static final DeferredBlock<Block> TELEPORTER = registerBlock("teleporter", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> TELEPORTER = registerBlock("teleporter", () -> new TeleporterBlock(BlockBehaviour.Properties.of()
             .strength(2.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

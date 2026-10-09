@@ -45,7 +45,6 @@ public abstract class StructureStartMixin {
             String structureKey = id.toString();
             ChunkPos origin = bridge.getChunkPos();
 
-            // Let the initial town generate normally
             if (data.getNextTown().equals("null")) {
                 if (data.trackTown(structureKey, origin)) {
                     System.out.println("=== SUCCESS: FIRST " + structurePath.toUpperCase() + " INSTANCE FOUND AND LOGGED! ===");
@@ -73,7 +72,7 @@ public abstract class StructureStartMixin {
                 if (savedOrigin != null && !origin.equals(savedOrigin)) {
                     System.out.println("=== BLOCKED DUPLICATE SPAWN: " + structurePath.toLowerCase() + " deleted at chunk " + chunkPos + " ===");
                     data.blockTown(origin);
-                    ci.cancel(); // Terminate layout block execution entirely
+                    ci.cancel();
                 }
             } else {
                 System.out.println("=== BLOCKED INCORRECT SPAWN: " + structurePath.toLowerCase() + " deleted at chunk " + chunkPos + " ===");
