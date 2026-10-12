@@ -4,7 +4,6 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.mkzone.cobbleregionskanto.block.ModBlocks;
 import net.mkzone.cobbleregionskanto.block.entity.ModBlockEntities;
 import net.mkzone.cobbleregionskanto.item.ModItems;
-import net.mkzone.cobbleregionskanto.worldgen.processor.ModStructureProcessors;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

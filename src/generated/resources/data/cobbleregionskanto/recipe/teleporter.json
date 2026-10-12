@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "O": {
+      "item": "minecraft:orange_concrete"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "SOS",
+    "OEO",
+    "SOS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobbleregionskanto:teleporter"
+  }
+}

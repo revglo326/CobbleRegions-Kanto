@@ -131,6 +131,15 @@ config="mixins.${mod_id}.json"
     ordering="AFTER"
     side="BOTH"
 
+# Lithostitched
+[[dependencies.${mod_id}]]
+    modId="lithostitched"
+    type="required"
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.8.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
 # Huge Structure Blocks
 #[[dependencies.${mod_id}]]
 #    modId="hugestructureblocks"

@@ -1,0 +1,21 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "cobbleregionskanto:fuchsiacity/house",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:fuchsiacity/gym"
+        },
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_box",
+        "min_depth": 2
+      }
+    }
+  ]
+}

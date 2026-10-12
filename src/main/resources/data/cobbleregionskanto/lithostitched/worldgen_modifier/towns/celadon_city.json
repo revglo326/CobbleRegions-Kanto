@@ -1,0 +1,36 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "cobbleregionskanto:celadoncity/house",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:celadoncity/gym"
+        },
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_box",
+        "min_depth": 3
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:celadoncity/dept_store"
+        },
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_box",
+        "min_depth": 3
+      }
+    }
+  ]
+}
