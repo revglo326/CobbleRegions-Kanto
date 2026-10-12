@@ -32,7 +32,7 @@
     "placement": {
         "type": "random_spread",
         "separation": 20,
-        "spacing": 80,
+        "spacing": 40,
         "salt": 8174598
     }
 }
