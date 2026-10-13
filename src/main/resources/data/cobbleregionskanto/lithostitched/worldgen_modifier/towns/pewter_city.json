@@ -14,7 +14,7 @@
         },
         "forced_count": 1,
         "override_terrain_adaptation": "beard_box",
-        "min_depth": 3
+        "min_depth": 2
       }
     }
   ]

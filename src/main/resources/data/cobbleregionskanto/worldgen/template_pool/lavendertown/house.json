@@ -20,15 +20,6 @@
             }
         },
         {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:lavendertown/jobsites/florist",
-                "projection": "rigid",
-                "processors": []
-            }
-        },
-        {
             "weight": 1,
             "element": {
                 "element_type": "empty_pool_element",

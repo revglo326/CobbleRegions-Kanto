@@ -13,8 +13,7 @@
           "location": "cobbleregionskanto:celadoncity/gym"
         },
         "forced_count": 1,
-        "override_terrain_adaptation": "beard_box",
-        "min_depth": 3
+        "override_terrain_adaptation": "beard_box"
       }
     },
     {
@@ -29,7 +28,22 @@
         },
         "forced_count": 1,
         "override_terrain_adaptation": "beard_box",
-        "min_depth": 3
+        "min_depth": 2
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:celadoncity/games_corner"
+        },
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_box",
+        "min_depth": 1
       }
     }
   ]

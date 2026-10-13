@@ -1,7 +1,13 @@
 {
   "type": "lithostitched:add_template_pool_elements",
   "template_pools": [
-    "#cobbleregionskanto:kanto_town"
+    "cobbleregionskanto:pewtercity/house",
+    "cobbleregionskanto:ceruleancity/house",
+    "cobbleregionskanto:vermilioncity/house",
+    "cobbleregionskanto:celadoncity/house",
+    "cobbleregionskanto:lavendertown/house",
+    "cobbleregionskanto:fuchsiacity/house",
+    "cobbleregionskanto:saffroncity/house"
   ],
   "elements": [
     {

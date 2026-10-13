@@ -20,24 +20,6 @@
             }
         },
         {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:fuchsiacity/jobsites/farming",
-                "projection": "rigid",
-                "processors": []
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:fuchsiacity/jobsites/smithing",
-                "projection": "rigid",
-                "processors": []
-            }
-        },
-        {
             "weight": 2,
             "element": {
                 "element_type": "empty_pool_element",

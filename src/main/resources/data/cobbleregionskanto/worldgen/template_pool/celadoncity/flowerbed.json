@@ -1,0 +1,23 @@
+{
+    "fallback": "cobbleregionskanto:celadoncity/terminators",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:celadoncity/decor/flowerbed",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "empty_pool_element",
+                "location": "cobbleregionskanto:celadoncity/decor/flowerbed",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

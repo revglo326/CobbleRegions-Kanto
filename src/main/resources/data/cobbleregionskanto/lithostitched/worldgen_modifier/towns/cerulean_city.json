@@ -13,8 +13,77 @@
           "location": "cobbleregionskanto:ceruleancity/gym"
         },
         "forced_count": 1,
-        "override_terrain_adaptation": "beard_box",
-        "min_depth": 3
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobblemon:habitats/freshwater_pond1"
+        },
+        "max_count": 1,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobblemon:habitats/freshwater_pond2"
+        },
+        "max_count": 1,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobblemon:habitats/freshwater_pond3"
+        },
+        "max_count": 1,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobblemon:habitats/freshwater_pond4"
+        },
+        "max_count": 1,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobblemon:habitats/freshwater_pond5"
+        },
+        "max_count": 1,
+        "override_terrain_adaptation": "beard_box"
       }
     }
   ]

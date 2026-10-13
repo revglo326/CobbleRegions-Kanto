@@ -5,8 +5,8 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:saffroncity/paths/town_center",
-                "projection": "terrain_matching",
+                "location": "cobbleregionskanto:saffroncity/town_centers/town_center",
+                "projection": "rigid",
                 "processors": []
             }
         }
