@@ -28,8 +28,7 @@
           "location": "cobbleregionskanto:vermilioncity/paths/park"
         },
         "forced_count": 1,
-        "override_terrain_adaptation": "beard_thin",
-        "min_depth": 1
+        "override_terrain_adaptation": "beard_thin"
       }
     }
   ]

@@ -45,6 +45,20 @@
         "override_terrain_adaptation": "beard_box",
         "min_depth": 1
       }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:celadoncity/decor/flowerbed"
+        },
+        "max_count": 2,
+        "override_terrain_adaptation": "beard_thin"
+      }
     }
   ]
 }

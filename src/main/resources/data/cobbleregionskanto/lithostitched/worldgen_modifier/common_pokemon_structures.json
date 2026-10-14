@@ -21,8 +21,7 @@
           "location": "cobbleregionskanto:pokemart/pokemart"
         },
         "forced_count": 1,
-        "override_terrain_adaptation": "beard_box",
-        "min_depth": 1
+        "override_terrain_adaptation": "beard_box"
       }
     },
     {
@@ -36,8 +35,7 @@
           "location": "cobbleregionskanto:pokemoncenter/pokemoncenter"
         },
         "forced_count": 1,
-        "override_terrain_adaptation": "beard_box",
-        "min_depth": 1
+        "override_terrain_adaptation": "beard_box"
       }
     }
   ]

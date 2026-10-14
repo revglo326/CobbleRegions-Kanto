@@ -14,7 +14,7 @@
             "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:saffroncity/house_1",
+                "location": "cobbleregionskanto:saffroncity/house_2",
                 "projection": "rigid",
                 "processors": []
             }
