@@ -18,15 +18,6 @@
                 "projection": "rigid",
                 "processors": []
             }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "element_type": "empty_pool_element",
-                "location": "cobbleregionskanto:fuchsiacity/house_2",
-                "projection": "rigid",
-                "processors": []
-            }
         }
     ]
 }

@@ -1,0 +1,19 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "cobbleregionskanto:lavendertown/path",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "terrain_matching",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:lavendertown/paths/path_to_tower"
+        },
+        "forced_count": 1
+      }
+    }
+  ]
+}

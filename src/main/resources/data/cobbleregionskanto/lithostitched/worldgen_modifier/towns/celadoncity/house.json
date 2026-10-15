@@ -10,35 +10,6 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "cobbleregionskanto:celadoncity/gym"
-        },
-        "forced_count": 1,
-        "override_terrain_adaptation": "beard_box"
-      }
-    },
-    {
-      "weight": 20,
-      "element": {
-        "element_type": "lithostitched:delegating",
-        "delegate": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "processors": "minecraft:empty",
-          "location": "cobbleregionskanto:celadoncity/dept_store"
-        },
-        "forced_count": 1,
-        "override_terrain_adaptation": "beard_box",
-        "min_depth": 2
-      }
-    },
-    {
-      "weight": 20,
-      "element": {
-        "element_type": "lithostitched:delegating",
-        "delegate": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "processors": "minecraft:empty",
           "location": "cobbleregionskanto:celadoncity/games_corner"
         },
         "forced_count": 1,
@@ -58,6 +29,19 @@
         },
         "max_count": 2,
         "override_terrain_adaptation": "beard_thin"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:pokemoncenter/pokemoncenter"
+        },
+        "forced_count": 1
       }
     }
   ]

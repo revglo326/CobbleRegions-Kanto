@@ -11,18 +11,9 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 5,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:ceruleancity/house_2",
-                "projection": "rigid",
-                "processors": []
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "element_type": "empty_pool_element",
                 "location": "cobbleregionskanto:ceruleancity/house_2",
                 "projection": "rigid",
                 "processors": []

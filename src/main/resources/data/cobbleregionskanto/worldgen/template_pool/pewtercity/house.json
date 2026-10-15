@@ -18,15 +18,6 @@
                 "projection": "rigid",
                 "processors": []
             }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "empty_pool_element",
-                "location": "cobbleregionskanto:pewtercity/house_2",
-                "projection": "rigid",
-                "processors": []
-            }
         }
     ]
 }
