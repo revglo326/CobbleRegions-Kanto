@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:fuchsiacity/fuchsia_city"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 10,
+        "spacing": 40,
+        "salt": 10495823
+    }
+}

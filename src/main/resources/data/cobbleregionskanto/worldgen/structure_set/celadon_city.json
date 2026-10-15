@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:celadoncity/celadon_city"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 20,
+        "spacing": 80,
+        "salt": 8174598
+    }
+}

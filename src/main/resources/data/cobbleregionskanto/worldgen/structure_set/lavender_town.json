@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 3,
+            "structure": "cobbleregionskanto:lavendertown/lavender_town"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 10,
+        "spacing": 40,
+        "salt": 55601294
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 3,
+            "structure": "cobbleregionskanto:ceruleancity/cerulean_city"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 10,
+        "spacing": 40,
+        "salt": 23311138
+    }
+}

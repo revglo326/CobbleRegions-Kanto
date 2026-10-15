@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:vermilioncity/vermilion_city"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 10,
+        "spacing": 40,
+        "salt": 87493201
+    }
+}
