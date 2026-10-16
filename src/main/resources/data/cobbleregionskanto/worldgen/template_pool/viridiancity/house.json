@@ -1,0 +1,50 @@
+{
+    "fallback": "cobbleregionskanto:viridiancity/terminators",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:viridiancity/house_1",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:viridiancity/house_2",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:viridiancity/house_3",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:viridiancity/house_4",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:viridiancity/house_5",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

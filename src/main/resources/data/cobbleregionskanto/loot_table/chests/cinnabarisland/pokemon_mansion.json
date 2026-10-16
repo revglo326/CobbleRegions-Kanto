@@ -5,6 +5,38 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
+                    "value": "cobblemon:sets/any_evo_stone",
+                    "weight": 1
+                }
+            ],
+            "rolls":
+            {
+                "max": 1.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "cobblemon:sets/any_common_pokeball",
+                    "weight": 1
+                }
+            ],
+            "rolls":
+            {
+                "max": 3.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
                     "value": "cobblemon:sets/any_apricorn_seed",
                     "weight": 1
                 }

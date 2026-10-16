@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "cobblemon:armor_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:cover_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:claw_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:dome_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:fossilized_bird",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "cobblemon:fossilized_dino",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "cobblemon:fossilized_drake",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "cobblemon:fossilized_fish",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "cobblemon:helix_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:jaw_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:old_amber_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:plume_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:root_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:sail_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "cobblemon:skull_fossil",
+          "type": "minecraft:item",
+          "weight": 4
+        }
+      ],
+      "rolls":
+      {
+        "max": 2.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+      }
+    }
+  ],
+  "random_sequence": "cobbleregionskanto:sets/any_ancient_fossil",
+  "type": "minecraft:chest"
+}

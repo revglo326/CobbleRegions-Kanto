@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:viridiancity/gym_clair",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:viridiancity/gym_clair",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "cobbleregionskanto:viridiancity/house",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "cobblemon:crop_to_berry",
+          "location": "cobbleregionskanto:viridiancity/jobsites/farm"
+        },
+        "max_count": 2,
+        "override_terrain_adaptation": "beard_thin"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:viridiancity/jobsites/farm"
+        },
+        "max_count": 2,
+        "override_terrain_adaptation": "beard_thin"
+      }
+    }
+  ]
+}
