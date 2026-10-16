@@ -1,0 +1,20 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:cinnabarisland/cinnabar_island",
+                "projection": "rigid",
+                "processors": [],
+                "spawn_overrides": {
+                    "monster": {
+                        "bounding_box": "piece",
+                        "spawns": []
+                    }
+                }
+            }
+        }
+    ]
+}
