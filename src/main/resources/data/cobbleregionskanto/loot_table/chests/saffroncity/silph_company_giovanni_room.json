@@ -1,0 +1,156 @@
+{
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "cobblemon:sets/any_evo_stone",
+                    "weight": 1
+                }
+            ],
+            "rolls":
+            {
+                "max": 1.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "cobblemon:sets/any_common_pokeball",
+                    "weight": 1
+                }
+            ],
+            "rolls":
+            {
+                "max": 3.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "cobblemon:sets/any_apricorn_seed",
+                    "weight": 1
+                }
+            ],
+            "rolls":
+            {
+                "max": 2.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "name": "minecraft:bread",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:exp_candy_s",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:exp_candy_m",
+                    "type": "minecraft:item",
+                    "weight": 2
+                },
+                {
+                    "name": "cobblemon:exp_candy_l",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "max": 12.0,
+                "min": 6.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "name": "cobblemon:remedy",
+                    "type": "minecraft:item",
+                    "weight": 5
+                },
+                {
+                    "name": "cobblemon:awakening",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:paralyze_heal",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:antidote",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:burn_heal",
+                    "type": "minecraft:item",
+                    "weight": 1
+                },
+                {
+                    "name": "cobblemon:ice_heal",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "name": "cobblemon:sitrus_berry",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": {
+                "max": 6.0,
+                "min": 0.0,
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "bonus_rolls": 0,
+            "conditions": [
+                {
+                    "chance": 0.05,
+                    "condition": "minecraft:random_chance"
+                }
+            ],
+            "entries": [
+                {
+                    "name": "cobblemon:master_ball",
+                    "type": "minecraft:item",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "cobblemon:villages/village_pokecenters",
+    "type": "minecraft:chest"
+}
