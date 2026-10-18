@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "weight": 1,
+            "weight": 4,
             "structure": "cobbleregionskanto:cinnabarisland/cinnabar_island"
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "separation": 20,
-        "spacing": 80,
-        "salt": 8174598
+        "separation": 30,
+        "spacing": 50,
+        "salt": 1487958
     }
 }

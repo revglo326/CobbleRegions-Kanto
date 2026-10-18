@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:cinnabarisland/gym",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:cinnabarisland/gym",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}
