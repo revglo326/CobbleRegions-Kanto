@@ -1,14 +1,4 @@
 {
     "fallback": "cobbleregionskanto:vermilioncity/gym",
-    "elements": [
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "cobbleregionskanto:vermilioncity/gym",
-                "projection": "rigid",
-                "processors": []
-            }
-        }
-    ]
+    "elements": []
 }

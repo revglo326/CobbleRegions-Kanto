@@ -1,0 +1,23 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:pallettown/paths/lamp_post",
+                "projection": "rigid",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "empty_pool_element",
+                "location": "cobbleregionskanto:pallettown/paths/lamp_post",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

@@ -12,7 +12,7 @@
           "processors": "minecraft:empty",
           "location": "cobbleregionskanto:vermilioncity/paths/path_to_gym"
         },
-        "forced_count": 1,
+        "forced_count": 2,
         "min_depth": 2
       }
     }

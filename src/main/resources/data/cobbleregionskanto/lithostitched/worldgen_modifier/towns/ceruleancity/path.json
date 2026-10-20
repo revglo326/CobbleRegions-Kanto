@@ -12,8 +12,7 @@
           "processors": "minecraft:empty",
           "location": "cobbleregionskanto:ceruleancity/paths/path_to_gym"
         },
-        "forced_count": 1,
-        "min_depth": 4
+        "forced_count": 2
       }
     }
   ]

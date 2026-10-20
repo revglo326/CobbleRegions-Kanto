@@ -2,6 +2,12 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.15,
+          "condition": "minecraft:random_chance"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -11,8 +17,8 @@
       ],
       "rolls":
       {
-        "max": 1.0,
-        "min": 0.0,
+        "max": 2.0,
+        "min": 1.0,
         "type": "minecraft:uniform"
       }
     },

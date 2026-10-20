@@ -1,0 +1,33 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "location": "cobbleregionskanto:pallettown/terminators/terminator_1",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "location": "cobbleregionskanto:pallettown/terminators/terminator_2",
+                "projection": "terrain_matching",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "location": "cobbleregionskanto:pallettown/terminators/terminator_3",
+                "projection": "terrain_matching",
+                "processors": []
+                
+            }
+        }
+    ]
+}
