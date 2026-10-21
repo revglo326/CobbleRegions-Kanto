@@ -8,7 +8,7 @@ Explore the Kanto Region in Minecraft!
 Description
 =======
 
-The CobbleRegions: Kanto mod adds the 10 following locations from the 1st Generation Pokemon Games:
+The CobbleRegions: Kanto mod adds the 10 following locations from the 1st Generation Pokémon Games:
  - Pallet Town
  - Viridian City
  - Pewter City
@@ -27,7 +27,7 @@ Gym leaders and other trainers reflect those from the Radical Cobblemon Trainers
 Featured Locations
 ============
 
-8 of the featured locations include a gym structure. These gyms recreate their look from the FireRed/LeafGreen counterparts, including their unique puzzles.
+8 of the featured towns include a gym structure. These gyms recreate their looks from the Pokémon FireRed/LeafGreen games, including their unique puzzles.
 
 For example, Sabrina's Gym (and the Silph Co. Building) include teleporter blocks that allow you to move from different rooms or floors in an instant!
 
