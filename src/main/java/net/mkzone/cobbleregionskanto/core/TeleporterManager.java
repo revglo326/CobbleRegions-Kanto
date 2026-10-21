@@ -20,8 +20,7 @@ import java.util.Map;
 import java.util.UUID;
 
 public class TeleporterManager extends SavedData {
-    private static final TeleporterManager clientStorageCopy = new TeleporterManager();
-    private final Map<UUID, GlobalPos> teleporters = new HashMap();
+    private final Map<UUID, GlobalPos> teleporters = new HashMap<>();
 
     TeleporterManager() {}
 

@@ -15,7 +15,7 @@
         "absolute": 0
     },
     "start_pool": "cobbleregionskanto:saffroncity/town_center",
-    "size": 7,
+    "size": 6,
     "terrain_adaptation": "beard_thin",
     "liquid_settings": "ignore_waterlogging"
 }

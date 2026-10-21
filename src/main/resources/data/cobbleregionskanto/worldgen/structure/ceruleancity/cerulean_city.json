@@ -15,7 +15,7 @@
         "absolute": 0
     },
     "start_pool": "cobbleregionskanto:ceruleancity/town_center",
-    "size": 6,
+    "size": 4,
     "terrain_adaptation": "beard_thin",
     "liquid_settings": "ignore_waterlogging"
 }

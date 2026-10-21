@@ -12,7 +12,8 @@
           "processors": "minecraft:empty",
           "location": "cobbleregionskanto:fuchsiacity/gym"
         },
-        "forced_count": 1
+        "forced_count": 1,
+        "allow_bounding_box_collisions": true
       }
     }
   ]

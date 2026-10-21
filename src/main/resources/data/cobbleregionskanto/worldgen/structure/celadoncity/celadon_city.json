@@ -15,7 +15,7 @@
         "absolute": 0
     },
     "start_pool": "cobbleregionskanto:celadoncity/town_center",
-    "size": 6,
+    "size": 5,
     "terrain_adaptation": "beard_thin",
     "liquid_settings": "ignore_waterlogging"
 }
