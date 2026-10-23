@@ -1,0 +1,107 @@
+{
+    "initializationAction": [
+        "c.npc.set_chatting();",
+        "v.bulbasaur = 'cobblemon:bulbasaur';",
+        "v.charmander = 'cobblemon:charmander';",
+        "v.squirtle = 'cobblemon:squirtle';",
+        "v.has_starter = c.player.has_chosen_starter();",
+        "v.landing_page = !v.has_starter ? 'no_starter' : 'congratulate';"
+    ],
+    "pages": [
+        {
+            "clientActions": [
+                "q.face.play_animation('win');"
+            ],
+            "id": "greeting",
+            "input": "q.dialogue.set_page(v.landing_page);",
+            "lines": [
+                "Hello!"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "congratulate",
+            "input": "q.dialogue.close();",
+            "lines": [
+                "You and your Pokémon seem to be getting along nicely!",
+                "Good luck on your adventure!"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "no_starter",
+            "speaker": "npc",
+            "lines": [
+                "My name is Oak!",
+                "I have three Pokémon here,",
+                "Would you like to take one with you?"
+            ],
+            "input": {
+                "options": [
+                    {
+                        "action": [
+                            "v.callback_dialogue = 'professoroak_success';",
+                            "v.selectedPokemon = v.bulbasaur;",
+                            "c.npc.run_action_effect('npc_give_starter_pokemon_gen1');",
+                            "q.dialogue.close();"
+                        ],
+                        "text": "Bulbasaur",
+                        "value": "bulbasaur"
+                    },
+                    {
+                        "action": [
+                            "v.callback_dialogue = 'professoroak_success';",
+                            "v.selectedPokemon = v.charmander;",
+                            "c.npc.run_action_effect('npc_give_starter_pokemon_gen1');",
+                            "q.dialogue.close();"
+                        ],
+                        "text": "Charmander",
+                        "value": "charmander"
+                    },
+                    {
+                        "action": [
+                            "v.callback_dialogue = 'professoroak_success';",
+                            "v.selectedPokemon = v.squirtle;",
+                            "c.npc.run_action_effect('npc_give_starter_pokemon_gen1');",
+                            "q.dialogue.close();"
+                        ],
+                        "text": "Squirtle",
+                        "value": "squirtle"
+                    },
+                    {
+                        "action": "q.dialogue.set_page('okbye');",
+                        "text": "No",
+                        "value": "no"
+                    }
+                ],
+                "type": "option",
+                "vertical": false
+            }
+        },
+        {
+            "id": "okbye",
+            "input": "q.dialogue.close();",
+            "lines": [
+                "Alright, see you later!"
+            ],
+            "speaker": "npc"
+        }
+    ],
+    "speakers": {
+        "npc": {
+            "face": "q.npc.face();",
+            "gibber": {},
+            "name": {
+                "expression": "q.npc.name",
+                "type": "expression"
+            }
+        },
+        "player": {
+            "face": "q.player.face();",
+            "name": {
+                "expression": "q.player.username",
+                "type": "expression"
+            }
+        }
+    }
+}

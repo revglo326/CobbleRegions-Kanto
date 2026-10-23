@@ -1,0 +1,25 @@
+{
+  "timeline": [
+    {
+      "type": "animation",
+      "animation": ["punch_right"],
+      "entityCondition": "true"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_command('pokemonrestartother ' + c.player.username() + ' false');"
+    },
+    {
+      "type": "molang",
+      "expressions": "c.player.party.add_by_properties(v.selectedPokemon + ' level=10');"
+    },
+    {
+      "type": "pause",
+      "pause": 0.5
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_script('run_callback_dialogue');"
+    }
+  ]
+}

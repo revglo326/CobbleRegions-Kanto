@@ -1,0 +1,23 @@
+{
+    "resourceIdentifier": "cobblemon:professoroak",
+    "canDespawn": false,
+    "hitbox": "player",
+    "interaction": {
+        "dialogue": "cobblemon:professoroak_interaction",
+        "type": "dialogue"
+    },
+    "names": [
+        "Professor Oak"
+    ],
+    "ai": [
+        {
+            "type": "apply_behaviours",
+            "behaviours": [
+                "cobblemon:core",
+                "cobblemon:name_tag_display",
+                "cobblemon:looks_in_one_direction",
+                "cobblemon:looks_at_players"
+            ]
+        }
+    ]
+}

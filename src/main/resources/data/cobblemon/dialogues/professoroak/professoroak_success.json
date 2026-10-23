@@ -1,0 +1,24 @@
+{
+    "initializationAction": "c.npc.set_chatting();",
+    "pages": [
+        {
+            "id": "greeting",
+            "input": "q.dialogue.close();",
+            "lines": [
+                "Here you go!",
+                "Good luck on your journey!"
+            ],
+            "speaker": "npc"
+        }
+    ],
+    "speakers": {
+        "npc":
+        {
+            "face": "q.npc.face();",
+            "name": {
+                "expression": "q.npc.name",
+                "type": "expression"
+            }
+        }
+    }
+}
