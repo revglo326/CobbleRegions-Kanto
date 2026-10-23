@@ -1,6 +1,6 @@
 {
   "presets":[
-    "cobblemon:chatter_npc",
+    "cobblemon:wandering_npc",
     "cobblemon:oldman"
   ],
   "interaction": {

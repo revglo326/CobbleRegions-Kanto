@@ -1,14 +1,6 @@
 {
   "type": "lithostitched:add_template_pool_elements",
-  "template_pools": [
-    "cobbleregionskanto:pewtercity/house",
-    "cobbleregionskanto:ceruleancity/house",
-    "cobbleregionskanto:vermilioncity/house",
-    "cobbleregionskanto:lavendertown/house",
-    "cobbleregionskanto:fuchsiacity/house",
-    "cobbleregionskanto:saffroncity/house",
-    "cobbleregionskanto:viridiancity/house"
-  ],
+  "template_pools": "cobbleregionskanto:ceruleancity/house",
   "elements": [
     {
       "weight": 60,
@@ -18,9 +10,10 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "cobbleregionskanto:pokemart/pokemart"
+          "location": "cobbleregionskanto:ceruleancity/pokecenter"
         },
-        "forced_count": 1
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_thin"
       }
     },
     {
@@ -31,9 +24,10 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "cobbleregionskanto:pokemoncenter/pokemoncenter"
+          "location": "cobbleregionskanto:ceruleancity/pokemart"
         },
-        "forced_count": 1
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_thin"
       }
     }
   ]

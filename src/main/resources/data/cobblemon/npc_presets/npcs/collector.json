@@ -1,0 +1,11 @@
+{
+  "resourceIdentifier": "cobblemon:collector",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Collector Dave",
+    "Collector Keith",
+    "Collector Juno",
+    "Collector Frank"
+  ]
+}

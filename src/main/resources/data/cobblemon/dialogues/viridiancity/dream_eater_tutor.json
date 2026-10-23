@@ -1,0 +1,58 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.tmName = 'dreameater';",
+    "v.hasTMUnlocked = c.player.has_tm_move_unlocked(v.tmName);",
+    "v.hasFreeSpace = c.player.has_inventory_space();",
+    "v.canGiveTM = v.hasTMUnlocked == false && v.hasFreeSpace == true;",
+    "v.landing_page = !v.canGiveTM ? 'no_tm' : 'yes_tm';"
+  ],
+  "pages": [
+    {
+      "id": "greeting",
+      "input": "q.dialogue.set_page(v.landing_page);",
+      "lines": [
+        "Yawn! I must have dozed off in the sun. I had this dream about a DROWZEE eating my dream."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "What a weird dream."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes_tm",
+      "input": [
+        "v.callback_dialogue = 'dream_eater_obtained';",
+        "c.npc.run_action_effect('npc_give_tm');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "What's this? Where did this TM come from?",
+        "This is spooky! Here, you can have this TM."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

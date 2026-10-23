@@ -15,6 +15,34 @@
         "forced_count": 1,
         "override_terrain_adaptation": "beard_thin"
       }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:vermilioncity/pokecenter"
+        },
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_thin"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:vermilioncity/pokemart"
+        },
+        "forced_count": 1,
+        "override_terrain_adaptation": "beard_thin"
+      }
     }
   ]
 }
