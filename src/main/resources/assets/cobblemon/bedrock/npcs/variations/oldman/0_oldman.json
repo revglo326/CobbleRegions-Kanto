@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:oldman",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:steve.geo",
+      "texture": "cobblemon:textures/npcs/old_man.png",
+      "layers": []
+    }
+  ]
+}

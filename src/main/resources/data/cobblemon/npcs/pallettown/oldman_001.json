@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:chatter_npc",
+    "cobblemon:oldman"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:oldman_001",
+    "type": "dialogue"
+  },
+  "names": [
+    "Old Man Stanley"
+  ]
+}

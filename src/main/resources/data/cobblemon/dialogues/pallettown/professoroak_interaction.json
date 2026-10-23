@@ -42,7 +42,7 @@
                         "action": [
                             "v.callback_dialogue = 'professoroak_success';",
                             "v.selectedPokemon = v.bulbasaur;",
-                            "c.npc.run_action_effect('npc_give_starter_pokemon_gen1');",
+                            "c.npc.run_action_effect('npc_oak_give_starter');",
                             "q.dialogue.close();"
                         ],
                         "text": "Bulbasaur",
@@ -52,7 +52,7 @@
                         "action": [
                             "v.callback_dialogue = 'professoroak_success';",
                             "v.selectedPokemon = v.charmander;",
-                            "c.npc.run_action_effect('npc_give_starter_pokemon_gen1');",
+                            "c.npc.run_action_effect('npc_oak_give_starter');",
                             "q.dialogue.close();"
                         ],
                         "text": "Charmander",
@@ -62,7 +62,7 @@
                         "action": [
                             "v.callback_dialogue = 'professoroak_success';",
                             "v.selectedPokemon = v.squirtle;",
-                            "c.npc.run_action_effect('npc_give_starter_pokemon_gen1');",
+                            "c.npc.run_action_effect('npc_oak_give_starter');",
                             "q.dialogue.close();"
                         ],
                         "text": "Squirtle",

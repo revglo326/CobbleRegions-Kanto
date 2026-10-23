@@ -6,7 +6,7 @@
       "aspects": [],
       "poser": "cobblemon:standard",
       "model": "cobblemon:steve.geo",
-      "texture": "cobblemon:textures/npcs/professoroak/professoroak.png",
+      "texture": "cobblemon:textures/npcs/professoroak.png",
       "layers": []
     }
   ]

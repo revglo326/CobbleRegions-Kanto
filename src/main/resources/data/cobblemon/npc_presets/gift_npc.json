@@ -1,0 +1,29 @@
+{
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobblemon:generic"
+  },
+  "hitbox": "player",
+  "isMovable": true,
+  "isInvulnerable": false,
+  "isLeashable": false,
+  "allowProjectileHits": true,
+  "battleConfiguration": {
+    "canChallenge": false
+  },
+  "canDespawn": false,
+  "hideNameTag": false,
+  "ai": [
+    {
+      "type": "cobblemon:apply_behaviours",
+      "behaviours": [
+        "cobblemon:core",
+        "cobblemon:chats",
+        "cobblemon:looks_around",
+        "cobblemon:looks_at_players",
+        "cobblemon:wanders",
+        "cobblemon:panics"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,14 @@
     "resourceIdentifier": "cobblemon:professoroak",
     "canDespawn": false,
     "hitbox": "player",
+    "isMovable": false,
+    "isInvulnerable": false,
+    "isLeashable": false,
+    "allowProjectileHits": true,
+    "battleConfiguration": {
+        "canChallenge": false
+    },
+    "hideNameTag": false,
     "interaction": {
         "dialogue": "cobblemon:professoroak_interaction",
         "type": "dialogue"

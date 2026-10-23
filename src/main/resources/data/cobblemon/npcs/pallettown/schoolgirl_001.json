@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:chatter_npc",
+    "cobblemon:schoolgirl"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:schoolgirl_001",
+    "type": "dialogue"
+  },
+  "names": [
+    "School Girl Lori"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "resourceIdentifier": "cobblemon:schoolgirl",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "School Girl Katie",
+    "School Girl Rebecca",
+    "School Girl Lori",
+    "School Girl Kat",
+    "School Girl Halle",
+    "School Girl Serena"
+  ]
+}

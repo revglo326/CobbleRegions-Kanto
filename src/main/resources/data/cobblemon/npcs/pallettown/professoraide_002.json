@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:professoraide"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:professoraide_002",
+    "type": "dialogue"
+  },
+  "names": [
+    "Oak Aide Peter"
+  ]
+}

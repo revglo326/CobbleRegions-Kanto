@@ -1,0 +1,11 @@
+{
+  "resourceIdentifier": "cobblemon:scientist",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Oak Aide Nick",
+    "Oak Aide Benjamin",
+    "Oak Aide Harry",
+    "Oak Aide Peter"
+  ]
+}
