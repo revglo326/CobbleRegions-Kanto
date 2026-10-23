@@ -1,0 +1,25 @@
+{
+  "resourceIdentifier": "cobblemon:hiker",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Hiker Alan",
+    "Hiker Allen",
+    "Hiker Brice",
+    "Hiker Clark",
+    "Hiker Daryl",
+    "Hiker Dudley",
+    "Hiker Earl",
+    "Hiker Eric",
+    "Hiker Franklin",
+    "Hiker Jeremy",
+    "Hiker Lenny",
+    "Hiker Lucas",
+    "Hiker Marcos",
+    "Hiker Mike",
+    "Hiker Nob",
+    "Hiker Oliver",
+    "Hiker Trent",
+    "Hiker Wayne"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "resourceIdentifier": "cobblemon:schoolboy",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Schoolboy Alan",
+    "Schoolboy Billy",
+    "Schoolboy Chad",
+    "Schoolboy Danny",
+    "Schoolboy Dudley",
+    "Schoolboy Jack",
+    "Schoolboy Joe",
+    "Schoolboy Johnny",
+    "Schoolboy Kipp",
+    "Schoolboy Nate",
+    "Schoolboy Ricky",
+    "Schoolboy Tommy"
+  ]
+}

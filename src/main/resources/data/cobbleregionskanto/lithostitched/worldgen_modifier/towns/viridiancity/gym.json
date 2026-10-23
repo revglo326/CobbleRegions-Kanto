@@ -9,7 +9,11 @@
         "delegate": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
-          "processors": "minecraft:empty",
+          "processors": [
+            {
+              "processor_type": "cobbleregionskanto:teleporter_processor"
+            }
+          ],
           "location": "cobbleregionskanto:viridiancity/gym_clair"
         },
         "forced_count": 1,

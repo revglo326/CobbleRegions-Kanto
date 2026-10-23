@@ -17,23 +17,29 @@
       "speaker": "npc"
     },
     {
-      "id": "no_tm",
-      "input": "q.dialogue.close();",
+      "id": "yes_tm",
       "lines": [
-        "What a weird dream."
+        "What's this? Where did this TM come from?"
       ],
       "speaker": "npc"
     },
     {
-      "id": "yes_tm",
+      "id": "yes_tm2",
       "input": [
         "v.callback_dialogue = 'dream_eater_obtained';",
         "c.npc.run_action_effect('npc_give_tm');",
         "q.dialogue.close();"
       ],
       "lines": [
-        "What's this? Where did this TM come from?",
         "This is spooky! Here, you can have this TM."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "What a weird dream."
       ],
       "speaker": "npc"
     }
