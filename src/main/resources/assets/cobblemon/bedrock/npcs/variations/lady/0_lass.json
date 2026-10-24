@@ -1,12 +1,12 @@
 {
-  "name": "cobblemon:oldman",
+  "name": "cobblemon:lady",
   "order": 0,
   "variations": [
     {
       "aspects": [],
       "poser": "cobblemon:standard",
-      "model": "cobblemon:steve.geo",
-      "texture": "cobblemon:textures/npcs/old_man.png",
+      "model": "cobblemon:alex.geo",
+      "texture": "cobblemon:textures/npcs/lady.png",
       "layers": []
     }
   ]

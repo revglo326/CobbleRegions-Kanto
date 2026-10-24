@@ -10,7 +10,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "cobbleregionskanto:pallettown/npcs/oldman"
+          "location": "cobbleregionskanto:pallettown/npcs/gentleman"
         },
         "forced_count": 1
       }

@@ -1,0 +1,11 @@
+{
+  "resourceIdentifier": "cobblemon:lady",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Lady Charlotte",
+    "Lady Gillian",
+    "Lady Jacki",
+    "Lady Selphy"
+  ]
+}

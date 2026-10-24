@@ -1,0 +1,103 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.tmName = 'rockpolish';",
+    "v.hasTMUnlocked = c.player.has_tm_move_unlocked(v.tmName);",
+    "v.hasFreeSpace = c.player.has_inventory_space();",
+    "v.canGiveTM = v.hasTMUnlocked == false && v.hasFreeSpace == true;",
+    "v.landing_page = !v.canGiveTM ? 'no_tm' : 'yes_tm';"
+  ],
+  "pages": [
+    {
+      "id": "greeting1",
+      "lines": [
+        "The secrets of space...",
+        "The mysteries of earth..."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "greeting2",
+      "lines": [
+        "There are so many things about which we know so little."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "greeting3",
+      "input": "q.dialogue.set_page(v.landing_page);",
+      "lines": [
+        "I'm spurred to continue my studies, which is wy I like keeping my fossils polished."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes_tm",
+      "lines": [
+        "Well, how about ROCK POLISH?",
+        "Would you like this TM?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes_tm2",
+      "input": {
+        "options": [
+          {
+            "action": [
+              "v.callback_dialogue = 'rock_polish_obtained';",
+              "c.npc.run_action_effect('npc_give_tm');",
+              "q.dialogue.close();"
+            ],
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('okbye');",
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "Here you go!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "I hope your fossils are polished nicely."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "okbye",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Well, come back whenever."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

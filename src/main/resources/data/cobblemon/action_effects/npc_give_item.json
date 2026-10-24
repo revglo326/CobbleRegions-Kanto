@@ -1,0 +1,21 @@
+{
+  "timeline": [
+    {
+      "type": "animation",
+      "animation": ["punch_right"],
+      "entityCondition": "true"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_command('give ' + c.player.username() + ' ' + v.itemID);"
+    },
+    {
+      "type": "pause",
+      "pause": 0.5
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_script('run_callback_dialogue');"
+    }
+  ]
+}
