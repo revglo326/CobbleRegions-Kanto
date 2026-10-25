@@ -1,0 +1,17 @@
+{
+  "resourceIdentifier": "cobblemon:sailor",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Sailor Alberto",
+    "Sailor Brennan",
+    "Sailor Dylan",
+    "Sailor Duncan",
+    "Sailor Dwayne",
+    "Sailor Edmond",
+    "Sailor Huey",
+    "Sailor Leonard",
+    "Sailor Philip",
+    "Sailor Trevor"
+  ]
+}

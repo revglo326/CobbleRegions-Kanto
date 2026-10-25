@@ -1,0 +1,28 @@
+{
+  "resourceIdentifier": "cobblemon:swimmerm",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Swimmer Axle",
+    "Swimmer Barry",
+    "Swimmer Braden",
+    "Swimmer Darrin",
+    "Swimmer David",
+    "Swimmer Dean",
+    "Swimmer Douglas",
+    "Swimmer Finn",
+    "Swimmer Garrett",
+    "Swimmer Jack",
+    "Swimmer Jerome",
+    "Swimmer Luis",
+    "Swimmer Matthew",
+    "Swimmer Mymo",
+    "Swimmer Reece",
+    "Swimmer Richard",
+    "Swimmer Roland",
+    "Swimmer Samir",
+    "Swimmer Spencer",
+    "Swimmer Toby",
+    "Swimmer Tony"
+  ]
+}

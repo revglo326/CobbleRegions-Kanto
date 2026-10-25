@@ -1,0 +1,21 @@
+{
+  "resourceIdentifier": "cobblemon:fisherman",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Fisherman Andrew",
+    "Fisherman Barny",
+    "Fisherman Chip",
+    "Fisherman Claude",
+    "Fisherman Dale",
+    "Fisherman Elliot",
+    "Fisherman Hank",
+    "Fisherman Kaden",
+    "Fisherman Ned",
+    "Fisherman Nolan",
+    "Fisherman Ronald",
+    "Fisherman Tommy",
+    "Fisherman Tylor",
+    "Fisherman Wade"
+  ]
+}

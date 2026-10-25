@@ -1,0 +1,17 @@
+{
+  "resourceIdentifier": "cobblemon:supernerd",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Super Nerd Aidan",
+    "Super Nerd Avery",
+    "Super Nerd Derek",
+    "Super Nerd Erik",
+    "Super Nerd Glenn",
+    "Super Nerd Jovan",
+    "Super Nerd Leslie",
+    "Super Nerd Miguel",
+    "Super Nerd Owen",
+    "Super Nerd Zac"
+  ]
+}

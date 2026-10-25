@@ -1,0 +1,92 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.itemID = 'cobblemon:great_rod[custom_name='{\"text\":\"Good Rod\",\"italic\":false}']';"
+  ],
+  "pages": [
+    {
+      "id": "chatting1",
+      "lines": [
+        "I'm the FISHING GURU's older brother."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "I simply looove fishing!",
+        "I can't bear to go without."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "input": {
+        "options": [
+          {
+            "action": "q.dialogue.set_page('yes');",
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('no');",
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "Tell me, do you like to fish?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes",
+      "lines": [
+        "Grand! I like your style.",
+        "I think we can be friends."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes2",
+      "input": [
+        "v.callback_dialogue = 'good_rod_accept';",
+        "c.npc.run_action_effect('npc_give_item');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "Take this and fish, young friend!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Oh...",
+        "That's so disappointing..."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

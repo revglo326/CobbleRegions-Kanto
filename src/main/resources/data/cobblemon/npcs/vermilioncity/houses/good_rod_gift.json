@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:fisherman"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:good_rod_gift",
+    "type": "dialogue"
+  }
+}
