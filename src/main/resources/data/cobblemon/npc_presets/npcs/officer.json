@@ -1,0 +1,13 @@
+{
+  "resourceIdentifier": "cobblemon:officer",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Officer Alex",
+    "Officer Bobby",
+    "Officer Caleb",
+    "Officer Danny",
+    "Officer Dylan",
+    "Officer Thomas"
+  ]
+}

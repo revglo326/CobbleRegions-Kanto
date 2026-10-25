@@ -1,0 +1,52 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting1",
+      "lines": [
+        "Have you heard about Bill?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting2",
+      "lines": [
+        "Everyone calls him a POKEMANIAC!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting3",
+      "lines": [
+        "I think people are just jealous of Bill, though."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting4",
+      "lines": [
+        "Who wouldn't want to boast about their POKEMON?"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

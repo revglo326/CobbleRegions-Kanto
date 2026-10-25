@@ -1,0 +1,58 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "cobbleregionskanto:ceruleancity/npcs/houses",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/houses/gentleman"
+        },
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/houses/lass"
+        },
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/houses/hiker"
+        },
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/houses/trader"
+        },
+        "forced_count": 1
+      }
+    }
+  ]
+}

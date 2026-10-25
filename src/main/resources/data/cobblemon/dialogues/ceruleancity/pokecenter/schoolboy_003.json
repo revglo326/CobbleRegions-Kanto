@@ -1,0 +1,45 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting1",
+      "lines": [
+        "You should try trading POKEMON with your friends!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting2",
+      "lines": [
+        "You could get a lot more variety by trading."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting3",
+      "lines": [
+        "Some POKEMON may even evolve!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

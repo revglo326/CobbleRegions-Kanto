@@ -1,0 +1,45 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting1",
+      "lines": [
+        "That Bill!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting2",
+      "lines": [
+        "I heard that he'll do whatever it takes to get rare POKEMON."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting3",
+      "lines": [
+        "He's not above doing all sorts of things, I've heard."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

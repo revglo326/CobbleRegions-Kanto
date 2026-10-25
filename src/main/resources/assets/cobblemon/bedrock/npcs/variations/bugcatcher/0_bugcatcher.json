@@ -6,7 +6,7 @@
       "aspects": [],
       "poser": "cobblemon:standard",
       "model": "cobblemon:steve.geo",
-      "texture": "cobblemon:textures/npcs/bugcatcher.png",
+      "texture": "cobblemon:textures/npcs/bug_catcher.png",
       "layers": []
     }
   ]

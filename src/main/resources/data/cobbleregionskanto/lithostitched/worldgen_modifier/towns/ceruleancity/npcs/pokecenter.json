@@ -1,0 +1,58 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "template_pools": "cobbleregionskanto:ceruleancity/npcs/pokecenter",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/pokecenter/gentleman"
+        },
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/pokecenter/guitarist"
+        },
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/pokecenter/schoolboy"
+        },
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:ceruleancity/npcs/pokecenter/youngster"
+        },
+        "forced_count": 1
+      }
+    }
+  ]
+}
