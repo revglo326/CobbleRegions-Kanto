@@ -1,0 +1,38 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting1",
+      "lines": [
+        "This town is known as the gravesite of POKEMON."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting2",
+      "lines": [
+        "Memorial services are held in POKEMON TOWER."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

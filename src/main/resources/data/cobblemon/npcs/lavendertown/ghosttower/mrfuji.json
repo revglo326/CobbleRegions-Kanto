@@ -1,0 +1,15 @@
+{
+  "presets":[
+    "cobblemon:static_npc"
+  ],
+  "resourceIdentifier": "cobblemon:mrfuji",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Mr. Fuji"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:mrfuji",
+    "type": "dialogue"
+  }
+}

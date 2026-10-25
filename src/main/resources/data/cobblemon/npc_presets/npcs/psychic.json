@@ -1,0 +1,16 @@
+{
+  "resourceIdentifier": "cobblemon:psychic",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Psychic Abigail",
+    "Psychic Brittney",
+    "Psychic Chelsey",
+    "Psychic Daisy",
+    "Psychic Desiree",
+    "Psychic Kendra",
+    "Psychic Lindsey",
+    "Psychic Rachael",
+    "Psychic Valencia"
+  ]
+}

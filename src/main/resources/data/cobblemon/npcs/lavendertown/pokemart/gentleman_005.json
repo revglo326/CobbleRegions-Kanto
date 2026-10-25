@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:gentleman"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:gentleman_005",
+    "type": "dialogue"
+  }
+}

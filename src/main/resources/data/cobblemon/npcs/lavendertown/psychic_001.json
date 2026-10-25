@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:psychic"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:psychic_001",
+    "type": "dialogue"
+  }
+}
