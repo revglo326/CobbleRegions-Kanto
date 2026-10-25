@@ -22,7 +22,9 @@
         "cobblemon:looks_around",
         "cobblemon:looks_at_players",
         "cobblemon:wanders",
-        "cobblemon:panics"
+        "cobblemon:panics",
+        "cobblemon:avoids_water",
+        "cobblemon:floats"
       ]
     }
   ]
