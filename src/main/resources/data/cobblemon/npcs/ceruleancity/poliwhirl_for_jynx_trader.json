@@ -1,0 +1,17 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:collector"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:poliwhirl_for_jynx_trader",
+    "type": "dialogue"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "jynx level=25 moves=psychic,dreameater,icepunch,sleepkiss held_item=cobblemon:wise_glasses",
+      "poliwhirl level=25"
+    ]
+  }
+}

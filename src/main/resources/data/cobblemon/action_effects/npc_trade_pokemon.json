@@ -1,0 +1,17 @@
+{
+  "timeline": [
+    {
+      "type": "animation",
+      "animation": ["punch_right"],
+      "entityCondition": "true"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_command('takepokemon ' + c.player.username() + ' ' + v.correctSlot);"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_command('givepokemonother ' + c.player.username() + ' ' + v.giftPokemonProperties);"
+    }
+  ]
+}
