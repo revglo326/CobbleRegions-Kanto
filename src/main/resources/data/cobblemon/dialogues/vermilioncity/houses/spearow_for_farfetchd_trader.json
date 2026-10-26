@@ -1,6 +1,8 @@
 {
   "initializationAction": [
     "c.npc.set_chatting();",
+    "v.questID = 'trade_for_farfetchd';",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/trade_for_farfetchd');",
     "v.lookingFor = 'Spearow';",
     "v.giftPokemon = c.npc.party.get_pokemon(0);",
     "v.giftPokemonProperties = 'farfetchd level=30 pokeball=poke_ball moves=mirrormove,steelwing,knockoff,furyattack';",
@@ -10,7 +12,7 @@
     "v.slot4 = c.player.party.get_pokemon(3);",
     "v.slot5 = c.player.party.get_pokemon(4);",
     "v.slot6 = c.player.party.get_pokemon(5);",
-    "v.canTrade = v.giftPokemon.species.name != v.lookingFor;",
+    "v.canTrade = !(c.player.has_advancement('cobbleregionskanto:progression/trade_for_farfetchd'));",
     "v.hasPokemon = ((v.slot1 != 0 && v.slot1.species.name == v.lookingFor) || (v.slot2 != 0 && v.slot2.species.name == v.lookingFor) || (v.slot3 != 0 && v.slot3.species.name == v.lookingFor) || (v.slot4 != 0 && v.slot4.species.name == v.lookingFor) || (v.slot5 != 0 && v.slot5.species.name == v.lookingFor) || (v.slot6 != 0 && v.slot6.species.name == v.lookingFor));",
     "v.correctSlot = (v.slot1 != 0 && v.slot1.species.name == v.lookingFor) ? 1 : ((v.slot2 != 0 && v.slot2.species.name == v.lookingFor) ? 2 : ((v.slot3 != 0 && v.slot3.species.name == v.lookingFor) ? 3 : ((v.slot4 != 0 && v.slot4.species.name == v.lookingFor) ? 4 : ((v.slot5 != 0 && v.slot5.species.name == v.lookingFor) ? 5 : ((v.slot6 != 0 && v.slot6.species.name == v.lookingFor) ? 6)))));",
     "v.landing_page = v.hasPokemon ? 'yes' : 'no';",
@@ -59,7 +61,6 @@
       "id": "yes",
       "input": [
         "c.npc.run_action_effect('npc_trade_pokemon');",
-        "c.npc.party.set_pokemon(0, c.npc.party.get_pokemon(1));",
         "q.dialogue.close();"
       ],
       "lines": [

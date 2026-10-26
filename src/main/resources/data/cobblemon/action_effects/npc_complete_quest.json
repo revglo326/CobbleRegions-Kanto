@@ -7,7 +7,7 @@
     },
     {
       "type": "molang",
-      "expressions": "q.run_command('give ' + c.player.username() + ' ' + v.itemID);"
+      "expressions": "q.run_command('cobbleregionskanto completequest ' + c.player.username + ' ' + v.questID);"
     },
     {
       "type": "pause",

@@ -12,6 +12,10 @@
     {
       "type": "molang",
       "expressions": "q.run_command('givepokemonother ' + c.player.username() + ' ' + v.giftPokemonProperties);"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_command('cobbleregionskanto completequest ' + c.player.username + ' ' + v.questID);"
     }
   ]
 }

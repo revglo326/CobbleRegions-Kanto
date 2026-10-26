@@ -1,9 +1,20 @@
 {
   "initializationAction": [
     "c.npc.set_chatting();",
-    "v.itemID = 'cobblemon:great_rod[custom_name='{\"text\":\"Good Rod\",\"italic\":false}']';"
+    "v.questID = 'receive_good_rod';",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/receive_good_rod');",
+    "v.landing_page = (v.hasGiftedPlayer != 1) ? 'chatting1' : 'already_has_rod';",
+    "q.dialogue.set_page(v.landing_page);"
   ],
   "pages": [
+    {
+      "id": "already_has_rod",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "How's the fishing going, friend?"
+      ],
+      "speaker": "npc"
+    },
     {
       "id": "chatting1",
       "lines": [
@@ -12,7 +23,7 @@
       "speaker": "npc"
     },
     {
-      "id": "chatting1",
+      "id": "chatting2",
       "lines": [
         "I simply looove fishing!",
         "I can't bear to go without."
@@ -20,7 +31,7 @@
       "speaker": "npc"
     },
     {
-      "id": "chatting",
+      "id": "chatting3",
       "input": {
         "options": [
           {
@@ -54,7 +65,7 @@
       "id": "yes2",
       "input": [
         "v.callback_dialogue = 'good_rod_accept';",
-        "c.npc.run_action_effect('npc_give_item');",
+        "c.npc.run_action_effect('npc_complete_quest');",
         "q.dialogue.close();"
       ],
       "lines": [

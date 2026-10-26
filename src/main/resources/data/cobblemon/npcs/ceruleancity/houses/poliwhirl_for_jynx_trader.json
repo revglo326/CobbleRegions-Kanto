@@ -10,8 +10,7 @@
   "party": {
     "type": "simple",
     "pokemon": [
-      "jynx level=25 moves=psychic,dreameater,icepunch,sleepkiss held_item=cobblemon:wise_glasses",
-      "poliwhirl level=25"
+      "jynx level=25 moves=psychic,dreameater,icepunch,sleepkiss held_item=cobblemon:wise_glasses"
     ]
   }
 }

@@ -3,6 +3,7 @@ package net.mkzone.cobbleregionskanto;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.mkzone.cobbleregionskanto.block.ModBlocks;
 import net.mkzone.cobbleregionskanto.block.entity.ModBlockEntities;
+import net.mkzone.cobbleregionskanto.command.ModCommands;
 import net.mkzone.cobbleregionskanto.item.ModItems;
 import org.slf4j.Logger;
 
@@ -40,6 +41,8 @@ public class CobbleRegionsKanto {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+
+        NeoForge.EVENT_BUS.addListener(ModCommands::onRegisterCommands);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

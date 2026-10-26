@@ -2,12 +2,30 @@
     "initializationAction": "c.npc.set_chatting();",
     "pages": [
         {
-            "id": "greeting",
+            "id": "chatting1",
+            "lines": [
+                "Fishing is a way of life!"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting2",
+            "lines": [
+                "It is like the finest poetry."
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting3",
+            "lines": [
+                "A crummy OLD ROD could only catch Magikarp, yes?"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting4",
             "input": "q.dialogue.close();",
             "lines": [
-                "Fishing is a way of life!",
-                "It is like the finest poetry.",
-                "A crummy OLD ROD could only catch Magikarp, yes?",
                 "But with a GOOD ROD, you can catch much better POKEMON."
             ],
             "speaker": "npc"
