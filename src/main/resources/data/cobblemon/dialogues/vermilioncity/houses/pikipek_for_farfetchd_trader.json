@@ -3,9 +3,9 @@
     "c.npc.set_chatting();",
     "v.questID = 'trade_for_farfetchd';",
     "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/trade_for_farfetchd');",
-    "v.lookingFor = 'Spearow';",
+    "v.lookingFor = 'Pikipek';",
     "v.giftPokemon = c.npc.party.get_pokemon(0);",
-    "v.giftPokemonProperties = 'farfetchd level=30 pokeball=poke_ball moves=mirrormove,steelwing,knockoff,furyattack';",
+    "v.giftPokemonProperties = 'farfetchd galarian=true level=30 pokeball=poke_ball moves=counter,steelwing,knockoff,slash';",
     "v.slot1 = c.player.party.get_pokemon(0);",
     "v.slot2 = c.player.party.get_pokemon(1);",
     "v.slot3 = c.player.party.get_pokemon(2);",
@@ -30,7 +30,7 @@
     {
       "id": "greeting1",
       "lines": [
-        "Do you have a SPEAROW?"
+        "Do you have a PIKIPEK?"
       ],
       "speaker": "npc"
     },
@@ -64,14 +64,14 @@
         "q.dialogue.close();"
       ],
       "lines": [
-        "Wow, thanks! This SPEAROW is so cool!"
+        "Wow, thanks! This PIKIPEK is so cool!"
       ],
       "speaker": "npc"
     },
     {
       "id": "no",
       "lines": [
-        "...You don't have a SPEAROW though."
+        "...You don't have a PIKIPEK though."
       ],
       "speaker": "npc"
     },
@@ -95,7 +95,7 @@
       "id": "out_of_trades",
       "input": "q.dialogue.close();",
       "lines": [
-        "SPEAROW is so cool!"
+        "PIKIPEK is so cool!"
       ],
       "speaker": "npc"
     }

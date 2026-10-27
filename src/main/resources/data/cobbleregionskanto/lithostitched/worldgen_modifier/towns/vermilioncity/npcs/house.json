@@ -14,6 +14,19 @@
         },
         "forced_count": 1
       }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:vermilioncity/npcs/houses/good_rod"
+        },
+        "forced_count": 1
+      }
     }
   ]
 }

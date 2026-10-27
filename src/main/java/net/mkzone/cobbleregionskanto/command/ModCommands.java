@@ -13,6 +13,7 @@ import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.PlayerAdvancements;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
@@ -65,21 +66,52 @@ public class ModCommands {
                                                                 }
 
                                                                 switch (advancementid) {
+                                                                    case "receive_old_rod":
+                                                                        ItemStack old_rod = new ItemStack(CobblemonItems.POKE_ROD);
+
+                                                                        old_rod.set(DataComponents.CUSTOM_NAME, Component.literal("Old Rod")
+                                                                                .withStyle(style -> style.withItalic(false)));
+
+                                                                        if (!player.getInventory().add(old_rod)) {
+                                                                            player.drop(old_rod, false);
+                                                                        }
+
+                                                                        return Command.SINGLE_SUCCESS;
                                                                     case "receive_good_rod":
                                                                         ItemStack good_rod = new ItemStack(CobblemonItems.GREAT_ROD);
 
-                                                                        Component customName = Component.literal("Good Rod")
-                                                                                .withStyle(style -> style.withItalic(false));
-
-                                                                        good_rod.set(DataComponents.CUSTOM_NAME, customName);
+                                                                        good_rod.set(DataComponents.CUSTOM_NAME, Component.literal("Good Rod")
+                                                                                .withStyle(style -> style.withItalic(false)));
 
                                                                         if (!player.getInventory().add(good_rod)) {
                                                                             player.drop(good_rod, false);
                                                                         }
 
                                                                         return Command.SINGLE_SUCCESS;
+                                                                    case "receive_super_rod":
+                                                                        ItemStack super_rod = new ItemStack(CobblemonItems.ULTRA_ROD);
+
+                                                                        super_rod.set(DataComponents.CUSTOM_NAME, Component.literal("Super Rod")
+                                                                                .withStyle(style -> style.withItalic(false)));
+
+                                                                        if (!player.getInventory().add(super_rod)) {
+                                                                            player.drop(super_rod, false);
+                                                                        }
+
+                                                                        return Command.SINGLE_SUCCESS;
+                                                                    case "catch_10_kinds":
+                                                                        MinecraftServer server = player.getServer();
+                                                                        server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), "givetm flash " + player.getName().getString());
+
+                                                                        return Command.SINGLE_SUCCESS;
+                                                                    case "trade_for_carnivine":
+                                                                    case "trade_for_eiscue":
                                                                     case "trade_for_farfetchd":
                                                                     case "trade_for_jynx":
+                                                                    case "trade_for_chatot":
+                                                                    case "trade_for_morpeko":
+                                                                    case "trade_for_mimikyu":
+                                                                    case "trade_for_ursaluna":
                                                                         return Command.SINGLE_SUCCESS;
                                                                     default:
                                                                         throw ERROR_ADVANCEMENT_NOT_FOUND.create();

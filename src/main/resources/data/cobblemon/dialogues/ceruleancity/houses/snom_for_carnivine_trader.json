@@ -1,18 +1,18 @@
 {
   "initializationAction": [
     "c.npc.set_chatting();",
-    "v.questID = 'trade_for_jynx';",
-    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/trade_for_jynx');",
-    "v.lookingFor = 'Poliwhirl';",
+    "v.questID = 'trade_for_carnivine';",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/trade_for_carnivine');",
+    "v.lookingFor = 'Snom';",
     "v.giftPokemon = c.npc.party.get_pokemon(0);",
-    "v.giftPokemonProperties = 'jynx level=25 pokeball=great_ball held_item=cobblemon:wise_glasses moves=psychic,dreameater,icepunch,sleepkiss';",
+    "v.giftPokemonProperties = 'carnivine level=25 pokeball=great_ball held_item=cobblemon:grassy_seed moves=crunch,leechlife,acidspray,stunspore';",
     "v.slot1 = c.player.party.get_pokemon(0);",
     "v.slot2 = c.player.party.get_pokemon(1);",
     "v.slot3 = c.player.party.get_pokemon(2);",
     "v.slot4 = c.player.party.get_pokemon(3);",
     "v.slot5 = c.player.party.get_pokemon(4);",
     "v.slot6 = c.player.party.get_pokemon(5);",
-    "v.canTrade = !(c.player.has_advancement('cobbleregionskanto:progression/trade_for_jynx'));",
+    "v.canTrade = !(c.player.has_advancement('cobbleregionskanto:progression/trade_for_carnivine'));",
     "v.hasPokemon = ((v.slot1 != 0 && v.slot1.species.name == v.lookingFor) || (v.slot2 != 0 && v.slot2.species.name == v.lookingFor) || (v.slot3 != 0 && v.slot3.species.name == v.lookingFor) || (v.slot4 != 0 && v.slot4.species.name == v.lookingFor) || (v.slot5 != 0 && v.slot5.species.name == v.lookingFor) || (v.slot6 != 0 && v.slot6.species.name == v.lookingFor));",
     "v.correctSlot = (v.slot1 != 0 && v.slot1.species.name == v.lookingFor) ? 1 : ((v.slot2 != 0 && v.slot2.species.name == v.lookingFor) ? 2 : ((v.slot3 != 0 && v.slot3.species.name == v.lookingFor) ? 3 : ((v.slot4 != 0 && v.slot4.species.name == v.lookingFor) ? 4 : ((v.slot5 != 0 && v.slot5.species.name == v.lookingFor) ? 5 : ((v.slot6 != 0 && v.slot6.species.name == v.lookingFor) ? 6)))));",
     "v.landing_page = v.hasPokemon ? 'yes' : 'no';",
@@ -30,7 +30,7 @@
     {
       "id": "greeting1",
       "lines": [
-        "Do you happen to have a POLIWHIRL?"
+        "Do you happen to have a SNOM?"
       ],
       "speaker": "npc"
     },
@@ -53,7 +53,7 @@
         "vertical": false
       },
       "lines": [
-        "Would you agree to a trade for my JYNX?"
+        "Would you agree to a trade for my CARNIVINE?"
       ],
       "speaker": "npc"
     },
@@ -64,7 +64,7 @@
         "q.dialogue.close();"
       ],
       "lines": [
-        "Thanks! POLIWHIRL is my favorite POKEMON!"
+        "Thanks! SNOM is my favorite POKEMON!"
       ],
       "speaker": "npc"
     },
@@ -73,7 +73,7 @@
       "input": "q.dialogue.close();",
       "lines": [
         "Hmm?",
-        "You don't seem to have a POLIWHIRL with you."
+        "You don't seem to have a SNOM with you."
       ],
       "speaker": "npc"
     },
@@ -89,7 +89,7 @@
       "id": "out_of_trades",
       "input": "q.dialogue.close();",
       "lines": [
-        "POLIWHIRL and I get along so well!"
+        "SNOM and I get along so well!"
       ],
       "speaker": "npc"
     }

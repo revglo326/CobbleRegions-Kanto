@@ -4,13 +4,13 @@
     "cobblemon:schoolgirl"
   ],
   "interaction": {
-    "dialogue": "cobblemon:spearow_for_farfetchd_trader",
+    "dialogue": "cobblemon:pikipek_for_farfetchd_trader",
     "type": "dialogue"
   },
   "party": {
     "type": "simple",
     "pokemon": [
-      "farfetchd level=30 pokeball=poke_ball moves=mirrormove,steelwing,knockoff,furyattack"
+      "farfetchd galarian=true level=30 pokeball=poke_ball moves=counter,steelwing,knockoff,slash"
     ]
   }
 }

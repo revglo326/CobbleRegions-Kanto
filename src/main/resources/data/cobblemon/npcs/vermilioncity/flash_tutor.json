@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:scientist"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:flash_tutor",
+    "type": "dialogue"
+  },
+  "names": [
+    "Professor Aide Peter"
+  ]
+}
