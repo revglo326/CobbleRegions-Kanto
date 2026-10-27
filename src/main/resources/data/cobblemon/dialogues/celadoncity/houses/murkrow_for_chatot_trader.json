@@ -1,0 +1,113 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.questID = 'trade_for_chatot';",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
+    "v.lookingFor = 'Murkrow';",
+    "v.giftPokemon = c.npc.party.get_pokemon(0);",
+    "v.giftPokemonProperties = 'chatot level=40 pokeball=great_ball held_item=cobblemon:sharp_beak moves=roost,airslash,nastyplot,ominouswind';",
+    "v.slot1 = c.player.party.get_pokemon(0);",
+    "v.slot2 = c.player.party.get_pokemon(1);",
+    "v.slot3 = c.player.party.get_pokemon(2);",
+    "v.slot4 = c.player.party.get_pokemon(3);",
+    "v.slot5 = c.player.party.get_pokemon(4);",
+    "v.slot6 = c.player.party.get_pokemon(5);",
+    "v.canTrade = !(c.player.has_advancement('cobbleregionskanto:progression/' + v.questID));",
+    "v.hasPokemon = ((v.slot1 != 0 && v.slot1.species.name == v.lookingFor) || (v.slot2 != 0 && v.slot2.species.name == v.lookingFor) || (v.slot3 != 0 && v.slot3.species.name == v.lookingFor) || (v.slot4 != 0 && v.slot4.species.name == v.lookingFor) || (v.slot5 != 0 && v.slot5.species.name == v.lookingFor) || (v.slot6 != 0 && v.slot6.species.name == v.lookingFor));",
+    "v.correctSlot = (v.slot1 != 0 && v.slot1.species.name == v.lookingFor) ? 1 : ((v.slot2 != 0 && v.slot2.species.name == v.lookingFor) ? 2 : ((v.slot3 != 0 && v.slot3.species.name == v.lookingFor) ? 3 : ((v.slot4 != 0 && v.slot4.species.name == v.lookingFor) ? 4 : ((v.slot5 != 0 && v.slot5.species.name == v.lookingFor) ? 5 : ((v.slot6 != 0 && v.slot6.species.name == v.lookingFor) ? 6)))));",
+    "v.landing_page = v.hasPokemon ? 'yes' : 'no';",
+    "v.landing_page2 = !v.canTrade ? 'out_of_trades' : 'greeting1';"
+  ],
+  "pages": [
+    {
+      "id": "greeting",
+      "input": "q.dialogue.set_page(v.landing_page2);",
+      "lines": [
+        "Hi!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "greeting1",
+      "lines": [
+        "Do you have a MURKROW?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "greeting2",
+      "input": {
+        "options": [
+          {
+            "action": "q.dialogue.set_page(v.landing_page);",
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('okbye');",
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "Want to trade it for my CHATOT?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes",
+      "input": [
+        "c.npc.run_action_effect('npc_trade_pokemon');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "Thanks! Let's go MURKROW!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "If you find one, trade it with me."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "okbye",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "That's too bad"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "out_of_trades",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "MURKROW is so cool!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

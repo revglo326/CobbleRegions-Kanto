@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:shopkeeperf"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:shopkeeperf_002",
+    "type": "dialogue"
+  }
+}

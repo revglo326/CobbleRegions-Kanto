@@ -1,0 +1,59 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting1",
+      "lines": [
+        "POKEMON stat enhancers can be bought only here."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "HP UP increases the base HP of a POKEMON."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "CALCIUM raises the base Sp. ATK stat of one POKEMON."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "ZINC boosts the base Sp. DEF stat of one POKEMON."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "CARBOS enhances the base SPEED stat."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

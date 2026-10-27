@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:collector"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:collector_001",
+    "type": "dialogue"
+  }
+}

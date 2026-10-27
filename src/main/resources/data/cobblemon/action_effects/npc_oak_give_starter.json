@@ -11,6 +11,10 @@
     },
     {
       "type": "molang",
+      "expressions": "q.run_command('rctmod player set series radicalred ' + c.player.username());"
+    },
+    {
+      "type": "molang",
       "expressions": "c.player.party.add_by_properties(v.selectedPokemon + ' level=10');"
     },
     {

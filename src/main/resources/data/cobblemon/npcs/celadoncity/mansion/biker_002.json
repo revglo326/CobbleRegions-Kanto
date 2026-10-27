@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:biker"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:biker_002",
+    "type": "dialogue"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:rocketgrunt"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:rocketgrunt_002",
+    "type": "dialogue"
+  }
+}

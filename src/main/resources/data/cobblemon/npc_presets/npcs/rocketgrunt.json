@@ -1,0 +1,8 @@
+{
+  "resourceIdentifier": "cobblemon:rocketgrunt",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Team Rocket Grunt"
+  ]
+}

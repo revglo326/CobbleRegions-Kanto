@@ -1,0 +1,25 @@
+{
+  "resourceIdentifier": "cobblemon:biker",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Biker Alex",
+    "Biker Billy",
+    "Biker Ernest",
+    "Biker Gerald",
+    "Biker Hideo",
+    "Biker Isaac",
+    "Biker Jared",
+    "Biker Jaren",
+    "Biker Jaxon",
+    "Biker Jordy",
+    "Biker Lao",
+    "Biker Lukas",
+    "Biker Malik",
+    "Biker Nikolas",
+    "Biker Ricardo",
+    "Biker Ruben",
+    "Biker Virgil",
+    "Biker William"
+  ]
+}

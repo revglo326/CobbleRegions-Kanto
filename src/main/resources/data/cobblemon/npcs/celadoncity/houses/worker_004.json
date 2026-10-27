@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:worker"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:worker_004",
+    "type": "dialogue"
+  }
+}
