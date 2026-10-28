@@ -11,7 +11,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:saffroncity/paths/straight_2",
@@ -29,7 +29,7 @@
             }
         },
         {
-            "weight": 7,
+            "weight": 6,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:saffroncity/paths/straight_4",
@@ -38,7 +38,7 @@
             }
         },
         {
-            "weight": 7,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:saffroncity/paths/straight_5",
@@ -56,7 +56,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 3,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:saffroncity/paths/crossroads",
@@ -74,7 +74,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:saffroncity/paths/corner_1",

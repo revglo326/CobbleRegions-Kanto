@@ -61,6 +61,8 @@ public class ModCommands {
                                                             AdvancementProgress progress = player.getAdvancements().getOrStartProgress(advancement);
 
                                                             if (!progress.isDone()) {
+                                                                MinecraftServer server = player.getServer();
+
                                                                 for (String criteria : progress.getRemainingCriteria()) {
                                                                     player.getAdvancements().award(advancement, criteria);
                                                                 }
@@ -100,9 +102,21 @@ public class ModCommands {
 
                                                                         return Command.SINGLE_SUCCESS;
                                                                     case "catch_10_kinds":
-                                                                        MinecraftServer server = player.getServer();
-                                                                        server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), "givetm flash " + player.getName().getString());
+                                                                        giveTM(server, player, "flash");
+                                                                        return Command.SINGLE_SUCCESS;
+                                                                    case "like_mudkipz":
+                                                                        giveTM(server, player, "earthquake");
+                                                                        return Command.SINGLE_SUCCESS;
+                                                                    case "save_silph_co":
+                                                                        ItemStack relicSacks = new ItemStack(CobblemonItems.RELIC_COIN_SACK, 5);
 
+                                                                        if (!player.getInventory().add(relicSacks)) {
+                                                                            player.drop(relicSacks, false);
+                                                                        }
+
+                                                                        return Command.SINGLE_SUCCESS;
+                                                                    case "gift_pokemon_lapras":
+                                                                        givePokemon(server, player, "lapras lvl=25 helditem=mystic_water moves=sing,freeze-dry,sparklingaria,lifedew");
                                                                         return Command.SINGLE_SUCCESS;
                                                                     case "trade_for_carnivine":
                                                                     case "trade_for_eiscue":
@@ -201,5 +215,13 @@ public class ModCommands {
                                 )
                         )
         );
+    }
+
+    private static void giveTM(MinecraftServer server, ServerPlayer player, String name) {
+        server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), "givetm " + name + " " + player.getName().getString());
+    }
+
+    private static void givePokemon(MinecraftServer server, ServerPlayer player, String pokemonProperties) {
+        server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), "pokegive " + pokemonProperties + " " + player.getName().getString());
     }
 }

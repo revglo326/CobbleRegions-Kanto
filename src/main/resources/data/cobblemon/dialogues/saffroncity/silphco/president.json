@@ -1,0 +1,71 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.questID = 'save_silph_co';",
+    "v.trainerQuestID = 'defeat_boss_giovanni_2';",
+    "v.hasDefeatedTrainer = c.player.has_advancement('rctmod:trainers/' + v.trainerQuestID);",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
+    "v.landing_page = v.hasGiftedPlayer ? 'alreadyGifted' : (!v.hasDefeatedTrainer ? 'chatting' : 'defeatedTeamRocket');",
+    "q.dialogue.set_page(v.landing_page);"
+  ],
+  "pages": [
+    {
+      "id": "alreadyGifted",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "We cannot thank you enough."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "defeatedTeamRocket",
+      "lines": [
+        "Thank you for saving SILPH! I will never forget you saved us in our moment of peril!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "defeatedTeamRocket1",
+      "lines": [
+        "I have to thank you in some way!",
+        "Because I am rich, I can give you anything!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "defeatedTeamRocket1",
+      "input": [
+        "c.npc.run_action_effect('npc_complete_quest');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "Here, maybe this will do!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "Help us. TEAM ROCKET is pure evil."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

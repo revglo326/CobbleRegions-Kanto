@@ -1,0 +1,51 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.trainerQuestID = 'defeat_boss_giovanni_2';",
+    "v.hasDefeatedTrainer = c.player.has_advancement('rctmod:trainers/' + v.trainerQuestID);",
+    "v.landing_page = !v.hasDefeatedTrainer ? 'chatting' : 'defeatedTeamRocket';",
+    "q.dialogue.set_page(v.landing_page);"
+  ],
+  "pages": [
+    {
+      "id": "defeatedTeamRocket",
+      "lines": [
+        "TEAM ROCKET took off!",
+        "We can go out safely again!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "defeatedTeamRocket",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "That's great!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "It would be great if the ELITE FOUR came and stomped TEAM ROCKET!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "cobblemon:textures/npcs/athlete_boy.png": "normal_sprite:regular/athlete_boy.png",
+    "cobblemon:textures/npcs/athlete_girl.png": "normal_sprite:regular/athlete_girl.png",
+    "cobblemon:textures/npcs/biker.png": "normal_sprite:regular/biker.png",
+    "cobblemon:textures/npcs/bill.png": "normal_sprite:regular/bill.png",
+    "cobblemon:textures/npcs/breeder.png": "normal_sprite:regular/breeder.png",
+    "cobblemon:textures/npcs/bug_catcher.png": "normal_sprite:regular/bugcatcher.png",
+    "cobblemon:textures/npcs/championiris.png": "normal_sprite:regular/championiris.png",
+    "cobblemon:textures/npcs/collector.png": "normal_sprite:regular/collector.png",
+    "cobblemon:textures/npcs/cool_girl.png": "normal_sprite:regular/coolgirl.png",
+    "cobblemon:textures/npcs/cowgirl.png": "normal_sprite:regular/cowgirl.png",
+    "cobblemon:textures/npcs/engineer.png": "normal_sprite:regular/engineer.png",
+    "cobblemon:textures/npcs/fisherman.png": "normal_sprite:regular/fisherman.png",
+    "cobblemon:textures/npcs/gentleman.png": "normal_sprite:regular/gentlman.png",
+    "cobblemon:textures/npcs/guitarist.png": "normal_sprite:regular/guitarist.png",
+    "cobblemon:textures/npcs/hermit.png": "normal_sprite:regular/hermit.png",
+    "cobblemon:textures/npcs/hiker.png": "normal_sprite:regular/hiker.png",
+    "cobblemon:textures/npcs/lady.png": "normal_sprite:regular/lady.png",
+    "cobblemon:textures/npcs/lass.png": "normal_sprite:regular/lass.png",
+    "cobblemon:textures/npcs/mrfuji.png": "normal_sprite:regular/mrfuji.png",
+    "cobblemon:textures/npcs/nursejoy.png": "normal_sprite:regular/nursejoy.png",
+    "cobblemon:textures/npcs/officer.png": "normal_sprite:regular/officer.png",
+    "cobblemon:textures/npcs/poke_girl.png": "normal_sprite:regular/pokegirl.png",
+    "cobblemon:textures/npcs/professoroak.png": "normal_sprite:regular/professoroak.png",
+    "cobblemon:textures/npcs/psychic.png": "normal_sprite:regular/psychic.png",
+    "cobblemon:textures/npcs/rocket_grunt.png": "normal_sprite:regular/rocketgrunt.png",
+    "cobblemon:textures/npcs/sailor.png": "normal_sprite:regular/sailor.png",
+    "cobblemon:textures/npcs/schoolboy.png": "normal_sprite:regular/schoolboy.png",
+    "cobblemon:textures/npcs/schoolgirl.png": "normal_sprite:regular/schoolgirl.png",
+    "cobblemon:textures/npcs/scientist.png": "normal_sprite:regular/scientist.png",
+    "cobblemon:textures/npcs/shopkeeperf.png": "normal_sprite:regular/shopkeeperf.png",
+    "cobblemon:textures/npcs/shopkeeperm.png": "normal_sprite:regular/shopkeeperm.png",
+    "cobblemon:textures/npcs/supernerd.png": "normal_sprite:regular/supernerd.png",
+    "cobblemon:textures/npcs/swimmerf.png": "normal_sprite:regular/swimmerf.png",
+    "cobblemon:textures/npcs/swimmerm.png": "normal_sprite:regular/swimmerm.png",
+    "cobblemon:textures/npcs/worker.png": "normal_sprite:regular/worker.png",
+    "cobblemon:textures/npcs/youngster.png": "normal_sprite:regular/youngster.png"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 1.0,
+      "rotationY": 0,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0
+    }
+  ]
+}

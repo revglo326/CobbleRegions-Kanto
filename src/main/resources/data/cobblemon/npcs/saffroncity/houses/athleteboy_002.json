@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:athleteboy"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:athleteboy_002",
+    "type": "dialogue"
+  }
+}
