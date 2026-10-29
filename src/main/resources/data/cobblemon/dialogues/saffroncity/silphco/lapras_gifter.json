@@ -5,7 +5,7 @@
     "v.trainerQuestID = 'defeat_boss_giovanni_2';",
     "v.hasDefeatedTrainer = c.player.has_advancement('rctmod:trainers/' + v.trainerQuestID);",
     "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
-    "v.landing_page = v.hasGiftedPlayer ? 'alreadyGifted' : (!v.hasDefeatedTrainer ? 'chatting' : 'defeatedTeamRocket');",
+    "v.landing_page = v.hasGiftedPlayer ? 'alreadyGifted' : (!v.hasDefeatedTrainer ? 'rival' : 'chatting');",
     "q.dialogue.set_page(v.landing_page);"
   ],
   "pages": [
@@ -14,6 +14,14 @@
       "input": "q.dialogue.close();",
       "lines": [
         "TEAM ROCKET's BOSS went to the boardroom! Is our PRESIDENT OK?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "rival",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "I think your friend is waiting for you."
       ],
       "speaker": "npc"
     },
