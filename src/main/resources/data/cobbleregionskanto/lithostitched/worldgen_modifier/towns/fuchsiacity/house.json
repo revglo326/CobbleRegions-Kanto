@@ -13,7 +13,7 @@
           "location": "cobbleregionskanto:fuchsiacity/jobsites/farming"
         },
         "max_count": 2,
-        "min_depth": 1,
+        "min_depth": 3,
         "override_terrain_adaptation": "beard_thin"
       }
     },
@@ -70,7 +70,7 @@
           "processors": "minecraft:empty",
           "location": "cobbleregionskanto:fuchsiacity/zoo/chansey"
         },
-        "min_depth": 2,
+        "min_depth": 4,
         "forced_count": 1
       }
     },
@@ -98,7 +98,7 @@
           "processors": "minecraft:empty",
           "location": "cobbleregionskanto:fuchsiacity/zoo/dracovish"
         },
-        "min_depth": 3,
+        "min_depth": 4,
         "forced_count": 1
       }
     },

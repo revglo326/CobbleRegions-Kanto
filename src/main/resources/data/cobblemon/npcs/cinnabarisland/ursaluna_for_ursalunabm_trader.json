@@ -1,0 +1,16 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:gentleman"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:ursaluna_for_ursalunabm_trader",
+    "type": "dialogue"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "ursaluna bloodmoon=true level=70 pokeball=ultra_ball moves=earthpower,bloodmoon,rest,protect"
+    ]
+  }
+}
