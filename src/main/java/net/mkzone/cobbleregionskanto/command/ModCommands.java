@@ -222,6 +222,6 @@ public class ModCommands {
     }
 
     private static void givePokemon(MinecraftServer server, ServerPlayer player, String pokemonProperties) {
-        server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), "pokegive " + pokemonProperties + " " + player.getName().getString());
+        server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), "pokegiveother " + player.getName().getString() + " " + pokemonProperties);
     }
 }

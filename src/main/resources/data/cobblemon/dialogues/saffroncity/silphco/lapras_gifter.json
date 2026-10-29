@@ -2,8 +2,10 @@
   "initializationAction": [
     "c.npc.set_chatting();",
     "v.questID = 'gift_pokemon_lapras';",
+    "v.trainerQuestID = 'defeat_boss_giovanni_2';",
+    "v.hasDefeatedTrainer = c.player.has_advancement('rctmod:trainers/' + v.trainerQuestID);",
     "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
-    "v.landing_page = !v.hasGiftedPlayer ? 'chatting' : 'alreadyGifted';",
+    "v.landing_page = v.hasGiftedPlayer ? 'alreadyGifted' : (!v.hasDefeatedTrainer ? 'chatting' : 'defeatedTeamRocket');",
     "q.dialogue.set_page(v.landing_page);"
   ],
   "pages": [
@@ -31,32 +33,13 @@
     },
     {
       "id": "chatting1",
-      "input": "c.npc.run_action_effect('npc_complete_quest');",
+      "input": [
+        "v.callback_dialogue = 'lapras_obtained';",
+        "c.npc.run_action_effect('npc_complete_quest');",
+        "q.dialogue.close();"
+      ],
       "lines": [
         "I want you to have this POKEMON for saving us."
-      ],
-      "speaker": "npc"
-    },
-    {
-      "id": "chatting1",
-      "lines": [
-        "It's LAPRAS. It's very intelligent"
-      ],
-      "speaker": "npc"
-    },
-    {
-      "id": "chatting1",
-      "lines": [
-        "We kept it in our lab, but it will be much better off with you!"
-      ],
-      "speaker": "npc"
-    },
-    {
-      "id": "chatting1",
-      "input": "q.dialogue.close();",
-      "lines": [
-        "I think you will be a good trainer for LAPRAS!",
-        "It's a good swimmer. It'll give you a lift!"
       ],
       "speaker": "npc"
     }
