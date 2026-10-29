@@ -1,0 +1,9 @@
+{
+  "resourceIdentifier": "cobblemon:dracovish",
+  "presets":[
+    "cobblemon:pokemon_npc_land"
+  ],
+  "names": [
+    "Dracovish"
+  ]
+}

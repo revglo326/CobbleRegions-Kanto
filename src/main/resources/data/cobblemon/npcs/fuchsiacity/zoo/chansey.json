@@ -1,0 +1,9 @@
+{
+  "resourceIdentifier": "cobblemon:chansey",
+  "presets":[
+    "cobblemon:pokemon_npc_land"
+  ],
+  "names": [
+    "Chansey"
+  ]
+}

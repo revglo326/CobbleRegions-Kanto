@@ -1,0 +1,101 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.tmName = 'substitute';",
+    "v.hasTMUnlocked = c.player.has_tm_move_unlocked(v.tmName);",
+    "v.hasFreeSpace = c.player.has_inventory_space();",
+    "v.canGiveTM = v.hasTMUnlocked == false && v.hasFreeSpace == true;",
+    "v.landing_page = !v.canGiveTM ? 'no_tm' : 'yes_tm';"
+  ],
+  "pages": [
+    {
+      "id": "chatting",
+      "lines": [
+        "Aww, I wish I was a KANGASKHAN baby."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "I'd love to be a substitute for the baby..."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "And snuggle in the mother KANGASKHAN's belly pouch."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "input": "q.dialogue.set_page(v.landing_page);",
+      "lines": [
+        "But only POKEMON can use the technique SUBSTITUTE..."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes_tm",
+      "input": {
+        "options": [
+          {
+            "action": [
+              "c.npc.run_action_effect('npc_give_tm');",
+              "q.dialogue.close();"
+            ],
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('okbye');",
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "Want me to teach SUBSTITUTE to one of your POKEMON?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "SUBSTITUTE seems so fun..."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "okbye",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Oh, really?",
+        "SUBSTITUTE seems so fun..."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "initializationAction": "c.npc.set_chatting();",
+    "pages": [
+        {
+            "id": "chatting1",
+            "lines": [
+                "With this, the power of the sea is in your hands."
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting2",
+            "lines": [
+                "Like the LORAX and his trees,",
+                "You now speak for waves."
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting3",
+            "lines": [
+                "I hope you serve them well."
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting4",
+            "input": "q.dialogue.close();",
+            "lines": [
+                "You can catch POKEMON with it too."
+            ],
+            "speaker": "npc"
+        }
+    ],
+    "speakers": {
+        "npc":
+        {
+            "face": "q.npc.face();",
+            "name": {
+                "expression": "q.npc.name",
+                "type": "expression"
+            }
+        }
+    }
+}

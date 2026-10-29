@@ -1,0 +1,9 @@
+{
+  "resourceIdentifier": "cobblemon:slowbro",
+  "presets":[
+    "cobblemon:pokemon_npc_land"
+  ],
+  "names": [
+    "Slowbro"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.questID = 'receive_super_rod';",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
+    "v.landing_page = (v.hasGiftedPlayer != 1) ? 'chatting1' : 'already_has_rod';",
+    "q.dialogue.set_page(v.landing_page);"
+  ],
+  "pages": [
+    {
+      "id": "already_has_rod",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Hello there, friend!",
+        "Have you been fishing?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "I'm the FISHING GURU's father."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting2",
+      "lines": [
+        "I simply looove fishing!",
+        "Been fishing my whooole life!."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting3",
+      "input": {
+        "options": [
+          {
+            "action": "q.dialogue.set_page('yes');",
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('no');",
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "I can tell you like to fish."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes",
+      "lines": [
+        "I knew it!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes2",
+      "input": [
+        "v.callback_dialogue = 'super_rod_accept';",
+        "c.npc.run_action_effect('npc_complete_quest');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "Take this as a token of my appreciation!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Oh...",
+        "I must've been mistaken..."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "resourceIdentifier": "cobblemon:milotic",
+  "presets":[
+    "cobblemon:pokemon_npc_water"
+  ],
+  "names": [
+    "Milotic"
+  ]
+}

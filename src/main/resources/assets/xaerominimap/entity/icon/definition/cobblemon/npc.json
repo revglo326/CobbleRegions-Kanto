@@ -12,7 +12,7 @@
     "cobblemon:textures/npcs/cowgirl.png": "normal_sprite:regular/cowgirl.png",
     "cobblemon:textures/npcs/engineer.png": "normal_sprite:regular/engineer.png",
     "cobblemon:textures/npcs/fisherman.png": "normal_sprite:regular/fisherman.png",
-    "cobblemon:textures/npcs/gentleman.png": "normal_sprite:regular/gentlman.png",
+    "cobblemon:textures/npcs/gentleman.png": "normal_sprite:regular/gentleman.png",
     "cobblemon:textures/npcs/guitarist.png": "normal_sprite:regular/guitarist.png",
     "cobblemon:textures/npcs/hermit.png": "normal_sprite:regular/hermit.png",
     "cobblemon:textures/npcs/hiker.png": "normal_sprite:regular/hiker.png",
@@ -35,7 +35,13 @@
     "cobblemon:textures/npcs/swimmerf.png": "normal_sprite:regular/swimmerf.png",
     "cobblemon:textures/npcs/swimmerm.png": "normal_sprite:regular/swimmerm.png",
     "cobblemon:textures/npcs/worker.png": "normal_sprite:regular/worker.png",
-    "cobblemon:textures/npcs/youngster.png": "normal_sprite:regular/youngster.png"
+    "cobblemon:textures/npcs/youngster.png": "normal_sprite:regular/youngster.png",
+    "cobblemon:textures/pokemon/0080_slowbro/slowbro.png": "normal_sprite:regular/0080_slowbro.png",
+    "cobblemon:textures/pokemon/0113_chansey/chansey.png": "normal_sprite:regular/0113_chansey.png",
+    "cobblemon:textures/pokemon/0115_kangaskhan/kangaskhan.png": "normal_sprite:regular/0115_kangaskhan.png",
+    "cobblemon:textures/pokemon/0131_lapras/lapras.png": "normal_sprite:regular/0131_lapras.png",
+    "cobblemon:textures/pokemon/0350_milotic/milotic.png": "normal_sprite:regular/0350_milotic.png",
+    "cobblemon:textures/pokemon/0882_dracovish/dracovish.png": "normal_sprite:regular/0882_dracovish.png"
   },
   "modelConfigs": [
     {

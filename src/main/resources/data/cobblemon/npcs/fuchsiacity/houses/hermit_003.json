@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:hermit"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:hermit_003",
+    "type": "dialogue"
+  },
+  "names": [
+    "Zookeeper"
+  ]
+}

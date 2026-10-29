@@ -3,7 +3,7 @@
   "template_pools": "cobbleregionskanto:fuchsiacity/house",
   "elements": [
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "element_type": "lithostitched:delegating",
         "delegate": {
@@ -13,11 +13,12 @@
           "location": "cobbleregionskanto:fuchsiacity/jobsites/farming"
         },
         "max_count": 2,
+        "min_depth": 1,
         "override_terrain_adaptation": "beard_thin"
       }
     },
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "element_type": "lithostitched:delegating",
         "delegate": {
@@ -27,6 +28,7 @@
           "location": "cobbleregionskanto:fuchsiacity/jobsites/smithing"
         },
         "max_count": 2,
+        "min_depth": 1,
         "override_terrain_adaptation": "beard_thin"
       }
     },
@@ -56,6 +58,89 @@
         },
         "forced_count": 1,
         "override_terrain_adaptation": "beard_thin"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:fuchsiacity/zoo/chansey"
+        },
+        "min_depth": 2,
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:fuchsiacity/zoo/slowbro"
+        },
+        "min_depth": 2,
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:fuchsiacity/zoo/dracovish"
+        },
+        "min_depth": 3,
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:fuchsiacity/zoo/milotic"
+        },
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:fuchsiacity/zoo/lapras"
+        },
+        "min_depth": 2,
+        "forced_count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "cobbleregionskanto:fuchsiacity/zoo/kangaskhan"
+        },
+        "min_depth": 4,
+        "forced_count": 1
       }
     }
   ]
