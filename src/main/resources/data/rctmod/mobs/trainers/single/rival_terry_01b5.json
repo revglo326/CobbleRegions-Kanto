@@ -4,10 +4,7 @@
     "is_void"
   ],
   "biomeTagWhitelist": [
-    "is_plains",
-    "is_sparse_vegetation",
-    "is_rare",
-    "has_structure/end_city"
+    "has_structure/viridiancity"
   ],
   "maxTrainerDefeats": 1,
   "maxTrainerWins": -1,
