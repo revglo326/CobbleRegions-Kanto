@@ -1,0 +1,24 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "cobbleregionskanto:indigoplateau/indigo_plateau",
+                "projection": "rigid",
+                "processors": [
+                    {
+                        "processor_type": "cobbleregionskanto:teleporter_processor"
+                    }
+                ],
+                "spawn_overrides": {
+                    "monster": {
+                        "bounding_box": "full",
+                        "spawns": []
+                    }
+                }
+            }
+        }
+    ]
+}

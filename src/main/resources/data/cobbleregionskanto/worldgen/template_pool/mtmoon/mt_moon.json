@@ -7,7 +7,11 @@
                 "element_type": "single_pool_element",
                 "location": "cobbleregionskanto:mtmoon/mt_moon",
                 "projection": "rigid",
-                "processors": [],
+                "processors": [
+                    {
+                        "processor_type": "cobbleregionskanto:teleporter_processor"
+                    }
+                ],
                 "spawn_overrides": {
                     "monster": {
                         "bounding_box": "full",
