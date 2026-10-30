@@ -1,0 +1,65 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.trainerQuestID = 'defeat_champion_terry';",
+    "v.hasDefeatedTrainer = c.player.has_advancement('rctmod:trainers/' + v.trainerQuestID);",
+    "v.landing_page = !v.hasDefeatedTrainer ? 'chatting' : 'defeatedChampion';",
+    "q.dialogue.set_page(v.landing_page);"
+  ],
+  "pages": [
+    {
+      "id": "defeatedChampion",
+      "lines": [
+        "I knew you'd win."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "defeatedChampion1",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Your victory was not just your own doing!",
+        "The bond you share with your POKEMON is marvelous!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "I came when I heard TERRY beat the ELITE FOUR!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "It was only a matter of time before you'd come to challenge him."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "Good luck!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

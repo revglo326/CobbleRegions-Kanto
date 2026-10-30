@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:athletegirl"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:athletegirl_005",
+    "type": "dialogue"
+  }
+}
