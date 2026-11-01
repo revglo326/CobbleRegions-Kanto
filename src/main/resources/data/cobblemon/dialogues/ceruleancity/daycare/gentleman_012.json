@@ -1,0 +1,69 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting1",
+      "lines": [
+        "Welcome to our DAY-CARE."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "options",
+      "input": {
+        "options": [
+          {
+            "action": "q.dialogue.set_page(v.landing_page);",
+            "text": "Drop Off",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('explanation1');",
+            "text": "Explain",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "Would you like to drop off a POKEMON or hear an explanation of how it works?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "explanation1",
+      "lines": [
+        "Trainers can leave their POKEMON here while they journey around KANTO."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "explanation2",
+      "input": "q.dialogue.set_page('options');",
+      "lines": [
+        "While they're gone, their POKEMON continue to GAIN EXP and can even BREED if the conditions are met."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

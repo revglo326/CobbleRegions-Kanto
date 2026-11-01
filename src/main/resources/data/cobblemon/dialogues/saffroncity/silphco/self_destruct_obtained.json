@@ -1,0 +1,23 @@
+{
+    "initializationAction": "c.npc.set_chatting();",
+    "pages": [
+        {
+            "id": "greeting",
+            "input": "q.dialogue.close();",
+            "lines": [
+                "TM36 contains SELF-DESTRUCT."
+            ],
+            "speaker": "npc"
+        }
+    ],
+    "speakers": {
+        "npc":
+        {
+            "face": "q.npc.face();",
+            "name": {
+                "expression": "q.npc.name",
+                "type": "expression"
+            }
+        }
+    }
+}

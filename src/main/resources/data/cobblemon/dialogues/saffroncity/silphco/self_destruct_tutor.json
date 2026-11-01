@@ -1,0 +1,71 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.tmName = 'selfdestruct';",
+    "v.hasTMUnlocked = c.player.has_tm_move_unlocked(v.tmName);",
+    "v.hasFreeSpace = c.player.has_inventory_space();",
+    "v.canGiveTM = v.hasTMUnlocked == false && v.hasFreeSpace == true;",
+    "v.landing_page = !v.canGiveTM ? 'no_tm' : 'yes_tm';",
+    "q.dialogue.set_page(v.landing_page);"
+  ],
+  "pages": [
+    {
+      "id": "yes_tm",
+      "lines": [
+        "Eeek! No! Stop! Help!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes_tm",
+      "lines": [
+        "Oh, you're not with TEAM ROCKET. I thought..."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes_tm2",
+      "input": [
+        "v.callback_dialogue = 'self_destruct_obtained';",
+        "c.npc.run_action_effect('npc_give_tm');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "I'm sorry. Here, please take this!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm",
+      "lines": [
+        "Eeek!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm2",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "It's powerful, but the POKEMON that uses it faints! Be careful."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

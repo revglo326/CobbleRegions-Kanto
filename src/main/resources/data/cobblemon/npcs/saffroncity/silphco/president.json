@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:gentleman"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:president",
+    "type": "dialogue"
+  },
+  "names": [
+    "Silph Co. President"
+  ]
+}

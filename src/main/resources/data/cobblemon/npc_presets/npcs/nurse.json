@@ -1,0 +1,11 @@
+{
+  "resourceIdentifier": "cobblemon:nursejoy",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Nurse Charlotte",
+    "Nurse Gillian",
+    "Nurse Jacki",
+    "Nurse Selphy"
+  ]
+}

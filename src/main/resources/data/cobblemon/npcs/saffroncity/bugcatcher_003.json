@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:bugcatcher"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:bugcatcher_003",
+    "type": "dialogue"
+  }
+}

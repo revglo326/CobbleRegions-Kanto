@@ -1,0 +1,65 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.tmName = 'psychic';",
+    "v.hasTMUnlocked = c.player.has_tm_move_unlocked(v.tmName);",
+    "v.hasFreeSpace = c.player.has_inventory_space();",
+    "v.canGiveTM = v.hasTMUnlocked == false && v.hasFreeSpace == true;",
+    "v.landing_page = !v.canGiveTM ? 'no_tm' : 'yes_tm';",
+    "q.dialogue.set_page(v.landing_page);"
+  ],
+  "pages": [
+    {
+      "id": "yes_tm",
+      "lines": [
+        "Do you know of TM29?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes_tm2",
+      "input": [
+        "v.callback_dialogue = 'psychic_obtained';",
+        "c.npc.run_action_effect('npc_give_tm');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "I think this TM belongs with you."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm",
+      "lines": [
+        "You already know, don't you?.",
+        "TM29 is PSYCHIC."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no_tm2",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "It's an attack that may also lower the target's special stats."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

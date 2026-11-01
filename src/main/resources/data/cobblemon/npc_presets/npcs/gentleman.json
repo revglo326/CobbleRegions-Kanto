@@ -1,0 +1,13 @@
+{
+  "resourceIdentifier": "cobblemon:gentleman",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Gentleman Stanley",
+    "Gentleman Stanford",
+    "Gentleman Jerome",
+    "Gentleman Henry",
+    "Gentleman Richard",
+    "Gentleman Alfred"
+  ]
+}

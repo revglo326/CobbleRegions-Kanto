@@ -1,0 +1,38 @@
+{
+    "initializationAction": "c.npc.set_chatting();",
+    "pages": [
+        {
+            "id": "chatting1",
+            "lines": [
+                "It's LAPRAS. It's very intelligent"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting1",
+            "lines": [
+                "We kept it in our lab, but it will be much better off with you!"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting1",
+            "input": "q.dialogue.close();",
+            "lines": [
+                "I think you will be a good trainer for LAPRAS!",
+                "It's a good swimmer. It'll give you a lift!"
+            ],
+            "speaker": "npc"
+        }
+    ],
+    "speakers": {
+        "npc":
+        {
+            "face": "q.npc.face();",
+            "name": {
+                "expression": "q.npc.name",
+                "type": "expression"
+            }
+        }
+    }
+}

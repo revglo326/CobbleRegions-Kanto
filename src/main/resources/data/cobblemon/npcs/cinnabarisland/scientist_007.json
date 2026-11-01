@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:scientist"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:scientist_007",
+    "type": "dialogue"
+  }
+}

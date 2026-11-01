@@ -1,0 +1,15 @@
+{
+  "resourceIdentifier": "cobblemon:athleteboy",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Athlete Anthony",
+    "Athlete Benjamin",
+    "Athlete Caleb",
+    "Athlete Chase",
+    "Athlete Connor",
+    "Athlete Dylan",
+    "Athlete Isaiah",
+    "Athlete Jacob"
+  ]
+}

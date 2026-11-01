@@ -1,0 +1,16 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:collector"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:snom_for_carnivine_trader",
+    "type": "dialogue"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "carnivine level=25 pokeball=great_ball held_item=cobblemon:grassy_seed moves=crunch,leechlife,acidspray,stunspore"
+    ]
+  }
+}

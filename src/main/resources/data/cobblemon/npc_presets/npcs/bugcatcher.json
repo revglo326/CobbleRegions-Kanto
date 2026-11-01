@@ -1,0 +1,26 @@
+{
+  "resourceIdentifier": "cobblemon:bugcatcher",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Bug Catcher Anthony",
+    "Bug Catcher Brandon",
+    "Bug Catcher Brent",
+    "Bug Catcher Cale",
+    "Bug Catcher Charlie",
+    "Bug Catcher Colton",
+    "Bug Catcher Conner",
+    "Bug Catcher Doug",
+    "Bug Catcher Elijah",
+    "Bug Catcher Garret",
+    "Bug Catcher Greg",
+    "Bug Catcher James",
+    "Bug Catcher Jonah",
+    "Bug Catcher Keigo",
+    "Bug Catcher Kent",
+    "Bug Catcher Rick",
+    "Bug Catcher Robby",
+    "Bug Catcher Sammy",
+    "Bug Catcher Vance"
+  ]
+}

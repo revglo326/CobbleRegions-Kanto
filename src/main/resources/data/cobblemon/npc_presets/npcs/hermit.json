@@ -1,0 +1,13 @@
+{
+  "resourceIdentifier": "cobblemon:hermit",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Hermit Stanley",
+    "Hermit Stanford",
+    "Hermit Jerome",
+    "Hermit Henry",
+    "Hermit Richard",
+    "Hermit Alfred"
+  ]
+}

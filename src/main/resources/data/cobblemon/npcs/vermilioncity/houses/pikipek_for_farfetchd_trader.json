@@ -1,0 +1,16 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:schoolgirl"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:pikipek_for_farfetchd_trader",
+    "type": "dialogue"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "farfetchd galarian=true level=30 pokeball=poke_ball moves=counter,steelwing,knockoff,slash"
+    ]
+  }
+}

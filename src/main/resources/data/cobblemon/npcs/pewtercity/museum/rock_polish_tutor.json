@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:scientist"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:rock_polish_tutor",
+    "type": "dialogue"
+  }
+}

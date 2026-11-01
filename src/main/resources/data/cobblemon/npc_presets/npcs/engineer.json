@@ -1,0 +1,12 @@
+{
+  "resourceIdentifier": "cobblemon:engineer",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Engineer Baily",
+    "Engineer Bernie",
+    "Engineer Braxton",
+    "Engineer Camden",
+    "Engineer Flint"
+  ]
+}

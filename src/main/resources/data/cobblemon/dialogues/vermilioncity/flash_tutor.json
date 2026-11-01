@@ -1,0 +1,123 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.questID = 'catch_10_kinds';",
+    "v.hasCompletedQuest = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
+    "v.kindsLeft = 10 - c.player.pokedex.caught_count;",
+    "v.has10Caught = v.kindsLeft <= 0;",
+    "v.landing_page = v.has10Caught ? 'yes' : 'needs_more';",
+    "v.landing_page2 = v.hasCompletedQuest ? 'already_done' : 'chatting';",
+    "q.dialogue.set_page(v.landing_page2);"
+  ],
+  "pages": [
+    {
+      "id": "already_done",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Hope you like the HM!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "Hi!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "Remember me? I'm PROF.OAK's AIDE!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting2",
+      "lines": [
+        "If you caught 10 kinds of POKEMON, I'm supposed to give you an HM05!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting3",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'So, ' + q.player.username + '!'"
+        }
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "greeting2",
+      "input": {
+        "options": [
+          {
+            "action": "q.dialogue.set_page(v.landing_page);",
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('okbye');",
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "Have you caught at least 10 kinds of POKEMON?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes",
+      "input": [
+        "c.npc.run_action_effect('npc_complete_quest');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'Great! You have caught ' + c.player.pokedex.caught_count + ' kinds of POKEMON!\nCongratulations! Here you go!'"
+        }
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "needs_more",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Looks like you're missing a few. When you get 10 kinds, come back for HM05."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "okbye",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Oh. I see. When you get 10 kinds, come back for HM05."
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

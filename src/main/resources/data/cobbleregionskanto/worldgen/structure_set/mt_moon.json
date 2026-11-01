@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "weight": 4,
+            "structure": "cobbleregionskanto:mtmoon/mt_moon"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 20,
+        "spacing": 120,
+        "spread_type": "triangular",
+        "salt": 1487958
+    }
+}

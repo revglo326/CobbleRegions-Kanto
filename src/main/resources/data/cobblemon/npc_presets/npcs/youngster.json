@@ -1,0 +1,24 @@
+{
+  "resourceIdentifier": "cobblemon:youngster",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Youngster Ben",
+    "Youngster Calvin",
+    "Youngster Chad",
+    "Youngster Cole",
+    "Youngster Cordell",
+    "Youngster Dan",
+    "Youngster Dave",
+    "Youngster Destin",
+    "Youngster Dillon",
+    "Youngster Eddie",
+    "Youngster Joey",
+    "Youngster Johnson",
+    "Youngster Josh",
+    "Youngster Nash",
+    "Youngster Timmy",
+    "Youngster Tyler",
+    "Youngster Yasu"
+  ]
+}

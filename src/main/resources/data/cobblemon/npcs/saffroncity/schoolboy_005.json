@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:schoolboy"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:schoolboy_005",
+    "type": "dialogue"
+  }
+}

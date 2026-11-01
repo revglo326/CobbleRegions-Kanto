@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:youngster"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:youngster_015",
+    "type": "dialogue"
+  }
+}

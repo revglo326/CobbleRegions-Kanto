@@ -1,0 +1,14 @@
+{
+  "resourceIdentifier": "cobblemon:guitarist",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Guitarist Dalton",
+    "Guitarist Fabian",
+    "Guitarist Fernando",
+    "Guitarist Joseph",
+    "Guitarist Kirk",
+    "Guitarist Marcos",
+    "Guitarist Shawn"
+  ]
+}

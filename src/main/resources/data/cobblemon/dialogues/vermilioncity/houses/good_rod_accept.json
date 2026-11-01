@@ -1,0 +1,44 @@
+{
+    "initializationAction": "c.npc.set_chatting();",
+    "pages": [
+        {
+            "id": "chatting1",
+            "lines": [
+                "Fishing is a way of life!"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting2",
+            "lines": [
+                "It is like the finest poetry."
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting3",
+            "lines": [
+                "A crummy OLD ROD could only catch Magikarp, yes?"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting4",
+            "input": "q.dialogue.close();",
+            "lines": [
+                "But with a GOOD ROD, you can catch much better POKEMON."
+            ],
+            "speaker": "npc"
+        }
+    ],
+    "speakers": {
+        "npc":
+        {
+            "face": "q.npc.face();",
+            "name": {
+                "expression": "q.npc.name",
+                "type": "expression"
+            }
+        }
+    }
+}

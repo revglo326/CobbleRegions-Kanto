@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:supernerd"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:supernerd_003",
+    "type": "dialogue"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "box_checked": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "box_checked"
+    ]
+  ]
+}

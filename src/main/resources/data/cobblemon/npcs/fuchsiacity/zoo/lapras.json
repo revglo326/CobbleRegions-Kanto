@@ -1,0 +1,9 @@
+{
+  "resourceIdentifier": "cobblemon:lapras",
+  "presets":[
+    "cobblemon:pokemon_npc_water"
+  ],
+  "names": [
+    "Lapras"
+  ]
+}

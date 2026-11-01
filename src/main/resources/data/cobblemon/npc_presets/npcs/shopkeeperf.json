@@ -1,0 +1,21 @@
+{
+  "resourceIdentifier": "cobblemon:shopkeeperf",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Shopkeeper Abigail",
+    "Shopkeeper Alice",
+    "Shopkeeper Amara",
+    "Shopkeeper Anya",
+    "Shopkeeper Connie",
+    "Shopkeeper Denise",
+    "Shopkeeper Maria",
+    "Shopkeeper Melissa",
+    "Shopkeeper Nicole",
+    "Shopkeeper Nora",
+    "Shopkeeper Shirley",
+    "Shopkeeper Shania",
+    "Shopkeeper Tiffany",
+    "Shopkeeper Tisha"
+  ]
+}

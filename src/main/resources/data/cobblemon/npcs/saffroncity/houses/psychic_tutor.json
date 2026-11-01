@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:psychic"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:psychic_tutor",
+    "type": "dialogue"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "resourceIdentifier": "cobblemon:worker",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Worker Braden",
+    "Worker Brendon",
+    "Worker Colin",
+    "Worker Conrad",
+    "Worker Dylan",
+    "Worker Gary",
+    "Worker Gerardo",
+    "Worker Holden",
+    "Worker Jaxon",
+    "Worker Mason",
+    "Worker Quentin",
+    "Worker Will"
+  ]
+}

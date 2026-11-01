@@ -1,0 +1,12 @@
+{
+  "resourceIdentifier": "cobblemon:athletegirl",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Athlete Abigail",
+    "Athlete Allison",
+    "Athlete Jasmine",
+    "Athlete Katelyn",
+    "Athlete Maria"
+  ]
+}

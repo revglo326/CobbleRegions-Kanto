@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:lass"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:lass_001",
+    "type": "dialogue"
+  },
+  "names": [
+    "Lass Lucille"
+  ]
+}

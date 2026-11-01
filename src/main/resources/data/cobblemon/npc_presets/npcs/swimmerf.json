@@ -1,0 +1,21 @@
+{
+  "resourceIdentifier": "cobblemon:swimmerf",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Swimmer Abigail",
+    "Swimmer Alice",
+    "Swimmer Amara",
+    "Swimmer Anya",
+    "Swimmer Connie",
+    "Swimmer Denise",
+    "Swimmer Maria",
+    "Swimmer Melissa",
+    "Swimmer Nicole",
+    "Swimmer Nora",
+    "Swimmer Shirley",
+    "Swimmer Shania",
+    "Swimmer Tiffany",
+    "Swimmer Tisha"
+  ]
+}

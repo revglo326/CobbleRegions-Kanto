@@ -6,7 +6,7 @@
       "aspects": [],
       "poser": "cobblemon:standard",
       "model": "cobblemon:alex.geo",
-      "texture": "cobblemon:textures/npcs/nursejoy/nursejoy.png",
+      "texture": "cobblemon:textures/npcs/nursejoy.png",
       "layers": []
     }
   ]

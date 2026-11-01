@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:guitarist"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:guitarist_001",
+    "type": "dialogue"
+  }
+}

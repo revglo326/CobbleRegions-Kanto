@@ -1,0 +1,113 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.questID = 'trade_for_ursaluna';",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
+    "v.lookingFor = 'Ursaluna';",
+    "v.giftPokemon = c.npc.party.get_pokemon(0);",
+    "v.giftPokemonProperties = 'ursaluna bloodmoon=true level=70 pokeball=ultra_ball moves=earthpower,bloodmoon,rest,protect';",
+    "v.slot1 = c.player.party.get_pokemon(0);",
+    "v.slot2 = c.player.party.get_pokemon(1);",
+    "v.slot3 = c.player.party.get_pokemon(2);",
+    "v.slot4 = c.player.party.get_pokemon(3);",
+    "v.slot5 = c.player.party.get_pokemon(4);",
+    "v.slot6 = c.player.party.get_pokemon(5);",
+    "v.canTrade = !(c.player.has_advancement('cobbleregionskanto:progression/' + v.questID));",
+    "v.hasPokemon = ((v.slot1 != 0 && v.slot1.species.name == v.lookingFor) || (v.slot2 != 0 && v.slot2.species.name == v.lookingFor) || (v.slot3 != 0 && v.slot3.species.name == v.lookingFor) || (v.slot4 != 0 && v.slot4.species.name == v.lookingFor) || (v.slot5 != 0 && v.slot5.species.name == v.lookingFor) || (v.slot6 != 0 && v.slot6.species.name == v.lookingFor));",
+    "v.correctSlot = (v.slot1 != 0 && v.slot1.species.name == v.lookingFor) ? 1 : ((v.slot2 != 0 && v.slot2.species.name == v.lookingFor) ? 2 : ((v.slot3 != 0 && v.slot3.species.name == v.lookingFor) ? 3 : ((v.slot4 != 0 && v.slot4.species.name == v.lookingFor) ? 4 : ((v.slot5 != 0 && v.slot5.species.name == v.lookingFor) ? 5 : ((v.slot6 != 0 && v.slot6.species.name == v.lookingFor) ? 6)))));",
+    "v.landing_page = v.hasPokemon ? 'yes' : 'no';",
+    "v.landing_page2 = !v.canTrade ? 'out_of_trades' : 'greeting1';",
+    "q.dialogue.set_page(v.landing_page2);"
+  ],
+  "pages": [
+    {
+      "id": "greeting1",
+      "lines": [
+        "Hello there!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "greeting2",
+      "input": {
+        "options": [
+          {
+            "action": "q.dialogue.set_page(v.landing_page);",
+            "text": "Yes",
+            "value": "yes"
+          },
+          {
+            "action": "q.dialogue.set_page('okbye');",
+            "text": "No",
+            "value": "no"
+          }
+        ],
+        "type": "option",
+        "vertical": false
+      },
+      "lines": [
+        "Do you want to trade your URSALUNA for URSALUNA?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "yes",
+      "input": [
+        "c.npc.run_action_effect('npc_trade_pokemon');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "Thanks!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no",
+      "lines": [
+        "Hmmm? This isn't URSALUNA."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "no2",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Think of me when you get one."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "okbye",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Well, if you don't want to..."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "out_of_trades",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "The URSALUNA you traded to me is so fun!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

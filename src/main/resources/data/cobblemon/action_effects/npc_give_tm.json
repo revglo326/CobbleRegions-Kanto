@@ -1,0 +1,25 @@
+{
+  "timeline": [
+    {
+      "type": "animation",
+      "animation": ["punch_right"],
+      "entityCondition": "true"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_command('technicalmachine unlock ' + c.player.username() + ' only cobblemon:' + v.tmName);"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_command('givetm ' + v.tmName + ' ' + c.player.username());"
+    },
+    {
+      "type": "pause",
+      "pause": 0.5
+    },
+    {
+      "type": "molang",
+      "expressions": "q.run_script('run_callback_dialogue');"
+    }
+  ]
+}

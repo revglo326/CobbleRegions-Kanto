@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:officer"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:officer_001",
+    "type": "dialogue"
+  }
+}

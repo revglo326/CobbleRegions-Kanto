@@ -1,0 +1,13 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:collector"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:dream_eater_tutor",
+    "type": "dialogue"
+  },
+  "names": [
+    "Collector Keith"
+  ]
+}

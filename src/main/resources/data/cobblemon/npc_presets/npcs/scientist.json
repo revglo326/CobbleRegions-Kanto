@@ -1,0 +1,21 @@
+{
+  "resourceIdentifier": "cobblemon:scientist",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Scientist Beau",
+    "Scientist Braydon",
+    "Scientist Connor",
+    "Scientist Ed",
+    "Scientist Gideon",
+    "Scientist Ivan",
+    "Scientist Jerry",
+    "Scientist Jose",
+    "Scientist Joshua",
+    "Scientist Parker",
+    "Scientist Rodney",
+    "Scientist Taylor",
+    "Scientist Ted",
+    "Scientist Travis"
+  ]
+}

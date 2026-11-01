@@ -1,0 +1,16 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:lass"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:aegislash_for_mimikyu_trader",
+    "type": "dialogue"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "mimikyu level=70 pokeball=dusk_ball moves=shadowsneak,playrough,shadowclaw,swordsdance"
+    ]
+  }
+}

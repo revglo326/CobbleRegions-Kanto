@@ -1,0 +1,28 @@
+{
+  "resourceIdentifier": "cobblemon:shopkeeperm",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Shopkeeper Axle",
+    "Shopkeeper Barry",
+    "Shopkeeper Braden",
+    "Shopkeeper Darrin",
+    "Shopkeeper David",
+    "Shopkeeper Dean",
+    "Shopkeeper Douglas",
+    "Shopkeeper Finn",
+    "Shopkeeper Garrett",
+    "Shopkeeper Jack",
+    "Shopkeeper Jerome",
+    "Shopkeeper Luis",
+    "Shopkeeper Matthew",
+    "Shopkeeper Mymo",
+    "Shopkeeper Reece",
+    "Shopkeeper Richard",
+    "Shopkeeper Roland",
+    "Shopkeeper Samir",
+    "Shopkeeper Spencer",
+    "Shopkeeper Toby",
+    "Shopkeeper Tony"
+  ]
+}

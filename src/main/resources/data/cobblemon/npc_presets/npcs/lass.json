@@ -1,0 +1,26 @@
+{
+  "resourceIdentifier": "cobblemon:lass",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Lass Ali",
+    "Lass Andrea",
+    "Lass Ann",
+    "Lass Crissy",
+    "Lass Dalia",
+    "Lass Dawn",
+    "Lass Haley",
+    "Lass Iris",
+    "Lass Janice",
+    "Lass Joana",
+    "Lass Julia",
+    "Lass Kay",
+    "Lass Lisa",
+    "Lass Megan",
+    "Lass Miriam",
+    "Lass Paige",
+    "Lass Reli",
+    "Lass Robin",
+    "Lass Sally"
+  ]
+}

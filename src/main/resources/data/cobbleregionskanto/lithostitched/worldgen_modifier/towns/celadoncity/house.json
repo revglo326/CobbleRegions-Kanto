@@ -39,7 +39,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "minecraft:empty",
-          "location": "cobbleregionskanto:pokemoncenter/pokemoncenter"
+          "location": "cobbleregionskanto:celadoncity/pokecenter"
         },
         "forced_count": 1
       }
