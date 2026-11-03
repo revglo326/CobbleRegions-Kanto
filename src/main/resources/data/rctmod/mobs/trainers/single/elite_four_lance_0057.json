@@ -16,7 +16,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:dragon_fang",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "e4"
 }

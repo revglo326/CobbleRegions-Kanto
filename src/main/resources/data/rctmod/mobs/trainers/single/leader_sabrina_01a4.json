@@ -16,7 +16,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:twisted_spoon",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "leader"
 }

@@ -18,6 +18,6 @@
   "series": [
     "radicalred"
   ],
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0.5,
   "type": "team_rocket"
 }

@@ -19,6 +19,6 @@
     "radicalred"
   ],
   "signatureItem": "cobblemon:silk_scarf",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0.5,
   "type": "rival"
 }

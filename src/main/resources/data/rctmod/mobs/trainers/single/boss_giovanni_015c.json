@@ -17,7 +17,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:upgrade",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "team_rocket"
 }

@@ -16,7 +16,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:poison_barb",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "leader"
 }

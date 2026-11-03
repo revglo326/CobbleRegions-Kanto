@@ -15,7 +15,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:destiny_knot",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "team_rocket"
 }

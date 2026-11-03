@@ -15,7 +15,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:covert_cloak",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "team_rocket"
 }

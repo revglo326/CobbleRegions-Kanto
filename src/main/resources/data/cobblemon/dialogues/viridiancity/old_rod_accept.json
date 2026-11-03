@@ -1,0 +1,37 @@
+{
+    "initializationAction": "c.npc.set_chatting();",
+    "pages": [
+        {
+            "id": "chatting1",
+            "lines": [
+                "Fishing is a way of life!"
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting2",
+            "lines": [
+                "It is like the finest poetry."
+            ],
+            "speaker": "npc"
+        },
+        {
+            "id": "chatting3",
+            "lines": [
+                "From the seas to rivers, go out",
+                "and land the big one, my friend."
+            ],
+            "speaker": "npc"
+        }
+    ],
+    "speakers": {
+        "npc":
+        {
+            "face": "q.npc.face();",
+            "name": {
+                "expression": "q.npc.name",
+                "type": "expression"
+            }
+        }
+    }
+}

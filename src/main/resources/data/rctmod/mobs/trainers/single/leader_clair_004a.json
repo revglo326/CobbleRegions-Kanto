@@ -16,7 +16,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:dragon_scale",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "leader"
 }

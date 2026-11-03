@@ -17,7 +17,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:never_melt_ice",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "e4"
 }

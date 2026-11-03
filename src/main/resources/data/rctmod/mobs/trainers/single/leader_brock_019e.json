@@ -14,7 +14,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:hard_stone",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "leader"
 }

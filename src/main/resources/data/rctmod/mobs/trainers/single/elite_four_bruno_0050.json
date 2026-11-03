@@ -16,7 +16,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:focus_band",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "e4"
 }

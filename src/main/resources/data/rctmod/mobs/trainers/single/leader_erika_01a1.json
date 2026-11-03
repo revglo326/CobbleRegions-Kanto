@@ -17,7 +17,6 @@
   "series": [
     "radicalred"
   ],
-  "signatureItem": "cobblemon:miracle_seed",
-  "spawnWeightFactor": 0.25,
+  "spawnWeightFactor": 0,
   "type": "leader"
 }
