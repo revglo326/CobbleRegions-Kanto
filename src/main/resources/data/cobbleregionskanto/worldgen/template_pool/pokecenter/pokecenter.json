@@ -1,0 +1,14 @@
+{
+    "fallback": "cobbleregionskanto:pokecenter/pokecenter",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "cobbleregionskanto:pokecenter/pokecenter",
+                "projection": "rigid",
+                "processors": []
+            }
+        }
+    ]
+}

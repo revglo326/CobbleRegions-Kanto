@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "weight": 4,
+            "structure": "cobbleregionskanto:ssanne/ss_anne"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 40,
+        "spacing": 240,
+        "spread_type": "triangular",
+        "salt": 543788912
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:pokecenter/pokecenter"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "frequency": 0.2,
+        "frequency_reduction_method": "legacy_type_1",
+        "separation": 8,
+        "spacing": 32,
+        "salt": 237895674,
+        "exclusion_zone": {
+            "chunk_count": 5,
+            "other_set": "minecraft:villages"
+        }
+    }
+}

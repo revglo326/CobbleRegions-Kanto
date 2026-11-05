@@ -4,9 +4,7 @@
     "is_void",
     "is_end"
   ],
-  "biomeTagWhitelist": [
-    "has_structure/vermilioncity"
-  ],
+  "biomeTagWhitelist": [],
   "maxTrainerDefeats": 1,
   "maxTrainerWins": -1,
   "optional": false,
@@ -19,6 +17,6 @@
     "radicalred"
   ],
   "signatureItem": "cobblemon:silk_scarf",
-  "spawnWeightFactor": 0.5,
+  "spawnWeightFactor": 0,
   "type": "rival"
 }
