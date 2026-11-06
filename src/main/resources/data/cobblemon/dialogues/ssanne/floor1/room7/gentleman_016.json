@@ -1,0 +1,31 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting",
+      "lines": [
+        "Ssh! I'm a GLOBAL POLICE agent! I'm on the trail of TEAM ROCKET!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

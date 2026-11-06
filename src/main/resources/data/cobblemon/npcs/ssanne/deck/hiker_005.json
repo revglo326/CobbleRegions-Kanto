@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:hiker"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:hiker_005",
+    "type": "dialogue"
+  }
+}

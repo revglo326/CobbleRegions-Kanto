@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:sailor"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:sailor_005",
+    "type": "dialogue"
+  }
+}

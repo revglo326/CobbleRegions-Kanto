@@ -1,0 +1,85 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.questID = 'seasick_captain';",
+    "v.hasGiftedPlayer = c.player.has_advancement('cobbleregionskanto:progression/' + v.questID);",
+    "v.landing_page = (v.hasGiftedPlayer != 1) ? 'chatting1' : 'already_has_gift';",
+    "q.dialogue.set_page(v.landing_page);"
+  ],
+  "pages": [
+    {
+      "id": "already_has_gift",
+      "input": "q.dialogue.close();",
+      "lines": [
+        "Thanks for the help!",
+        "See you around!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting1",
+      "lines": [
+        "Ooargh... I feel hideous... Urrp! Seasick..."
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "*rubs the CAPTAIN's back*"
+      ],
+      "speaker": "player"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "Whew! Thank you! I feel much better!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "You want to see my CUT technique?"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "I could show you if I wasn't ill...",
+        "I know!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "input": [
+        "v.callback_dialogue = 'captain_cut_accept';",
+        "c.npc.run_action_effect('npc_complete_quest');",
+        "q.dialogue.close();"
+      ],
+      "lines": [
+        "You can have this!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:static_npc",
+    "cobblemon:chef"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:chef_002",
+    "type": "dialogue"
+  }
+}

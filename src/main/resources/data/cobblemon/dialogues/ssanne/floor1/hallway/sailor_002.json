@@ -1,0 +1,38 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting",
+      "lines": [
+        "The passengers are restless!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "You might be challenged by the more bored ones!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

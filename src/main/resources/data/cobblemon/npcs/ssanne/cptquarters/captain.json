@@ -1,0 +1,13 @@
+{
+  "resourceIdentifier": "cobblemon:captain",
+  "presets":[
+    "cobblemon:static_npc"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:captain",
+    "type": "dialogue"
+  },
+  "names": [
+    "Captain"
+  ]
+}

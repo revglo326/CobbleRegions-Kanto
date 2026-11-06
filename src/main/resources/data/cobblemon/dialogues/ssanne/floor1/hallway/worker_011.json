@@ -1,0 +1,47 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "pages": [
+    {
+      "id": "chatting",
+      "lines": [
+        "Bonjour!",
+        "I am le waiter on this ship!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "I will be happy to serve you anything you please!"
+      ],
+      "speaker": "npc"
+    },
+    {
+      "id": "chatting",
+      "lines": [
+        "Ah!",
+        "Le strong silent type!"
+      ],
+      "speaker": "npc"
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face();",
+      "gibber": {},
+      "name": {
+        "expression": "q.npc.name",
+        "type": "expression"
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "expression": "q.player.username",
+        "type": "expression"
+      }
+    }
+  }
+}

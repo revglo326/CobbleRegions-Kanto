@@ -4,7 +4,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "chance": 0.15,
+          "chance": 0.1,
           "condition": "minecraft:random_chance"
         }
       ],
@@ -18,7 +18,7 @@
       "rolls":
       {
         "max": 2.0,
-        "min": 1.0,
+        "min": 0.0,
         "type": "minecraft:uniform"
       }
     },

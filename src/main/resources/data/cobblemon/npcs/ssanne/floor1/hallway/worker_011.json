@@ -1,0 +1,10 @@
+{
+  "presets":[
+    "cobblemon:wandering_npc",
+    "cobblemon:worker"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:worker_011",
+    "type": "dialogue"
+  }
+}

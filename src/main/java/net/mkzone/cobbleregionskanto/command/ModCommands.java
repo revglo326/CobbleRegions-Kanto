@@ -107,6 +107,9 @@ public class ModCommands {
                                                                     case "like_mudkipz":
                                                                         giveTM(server, player, "earthquake");
                                                                         return Command.SINGLE_SUCCESS;
+                                                                    case "seasick_captain":
+                                                                        giveTM(server, player, "cut");
+                                                                        return Command.SINGLE_SUCCESS;
                                                                     case "save_silph_co":
                                                                         ItemStack relicSacks = new ItemStack(CobblemonItems.RELIC_COIN_SACK, 5);
 

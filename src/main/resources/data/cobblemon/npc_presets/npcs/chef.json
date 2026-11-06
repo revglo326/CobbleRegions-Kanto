@@ -1,0 +1,20 @@
+{
+  "resourceIdentifier": "cobblemon:chef",
+  "canDespawn": false,
+  "hitbox": "player",
+  "names": [
+    "Chef Albern",
+    "Chef Brady",
+    "Chef Carver",
+    "Chef Derek",
+    "Chef Dominique",
+    "Chef Edwin",
+    "Chef Ernie",
+    "Chef Eugene",
+    "Chef Fil",
+    "Chef Hector",
+    "Chef Ivan",
+    "Chef Jamal",
+    "Chef Stuart"
+  ]
+}
