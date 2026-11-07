@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:billshouse/bills_house"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 20,
+        "spacing": 80,
+        "spread_type": "triangular",
+        "salt": 47392357
+    }
+}

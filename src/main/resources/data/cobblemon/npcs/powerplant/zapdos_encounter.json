@@ -1,0 +1,20 @@
+{
+  "resourceIdentifier": "cobblemon:zapdos",
+  "presets":[
+    "cobblemon:pokemon_legendary_static_encounter"
+  ],
+  "interaction": {
+    "dialogue": "cobblemon:zapdos_encounter",
+    "type": "dialogue"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "zapdos level=70 pokeball=poke_ball moves=pluck,ancientpower,thundershock,thunder"
+    ]
+  },
+  "hideNameTag": true,
+  "names": [
+    "Zapdos"
+  ]
+}

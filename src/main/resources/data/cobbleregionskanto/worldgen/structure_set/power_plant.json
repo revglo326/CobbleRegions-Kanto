@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:powerplant/power_plant"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 80,
+        "spacing": 240,
+        "spread_type": "triangular",
+        "salt": 47392357
+    }
+}
