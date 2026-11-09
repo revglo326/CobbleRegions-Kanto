@@ -16,6 +16,6 @@
     },
     "start_pool": "cobbleregionskanto:powerplant/power_plant",
     "size": 6,
-    "terrain_adaptation": "beard_thin",
+    "terrain_adaptation": "beard_box",
     "liquid_settings": "ignore_waterlogging"
 }

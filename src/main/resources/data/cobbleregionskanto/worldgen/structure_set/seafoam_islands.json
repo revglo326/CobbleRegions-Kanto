@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "cobbleregionskanto:seafoamislands/seafoam_islands"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 80,
+        "spacing": 240,
+        "spread_type": "triangular",
+        "salt": 3337548
+    }
+}
